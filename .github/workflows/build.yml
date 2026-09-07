@@ -1,7 +1,42 @@
-name: Build
-on: [push]
+name: Build FlightSim APK
+on:
+  push:
+    branches: [ main, master, develop ]
+  workflow_dispatch:
+permissions:
+  contents: write
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+      - name: Install deps
+        run: npm ci || npm install
+      - name: Build Web
+        run: npm run build
+      - uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '21'
+          cache: 'gradle'
+      - uses: android-actions/setup-android@v3
+      - run: yes | sdkmanager --licenses || true
+      - run: sdkmanager "platform-tools" "platforms;android-34" "build-tools;34.0.0"
+      - name: Add Android platform
+        run: |
+          if [ ! -d "android" ]; then npx cap add android; fi
+          npx cap copy android
+          npx cap sync android || true
+      - run: chmod +x android/gradlew
+      - name: Build Debug APK
+        run: cd android && ./gradlew assembleDebug --no-daemon
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: flightsim-debug-apk
+          path: android/app/build/outputs/apk/debug/*.apk
+          retention-days: 14
