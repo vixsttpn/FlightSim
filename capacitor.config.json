@@ -1,0 +1,5 @@
+{
+  "appId": "com.flightsim.app",
+  "appName": "FlightSim",
+  "webDir": "dist"
+}
