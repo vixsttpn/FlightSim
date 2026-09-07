@@ -10,49 +10,34 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-
       - name: Install deps
         run: npm install --legacy-peer-deps
-
       - name: Build Web
         run: npm run build
-
       - name: Setup Java 21
         uses: actions/setup-java@v4
         with:
           distribution: 'temurin'
           java-version: '21'
           cache: 'gradle'
-
       - name: Setup Android SDK
         uses: android-actions/setup-android@v3
-
-      - name: Accept licenses
-        run: yes | sdkmanager --licenses || true
-
-      - name: Install Android platforms
-        run: sdkmanager "platform-tools" "platforms;android-34" "build-tools;34.0.0"
-
-      - name: Add Android platform
+      - run: yes | sdkmanager --licenses || true
+      - run: sdkmanager "platform-tools" "platforms;android-34" "build-tools;34.0.0"
+      - name: Add Android platform FORCE
         run: |
-          echo "Check dist"
-          ls -la dist || ls -la
-          npx cap add android || npx @capacitor/cli add android || true
-          npx cap copy android || true
-          npx cap sync android || true
+          ls -la dist
+          rm -rf android
+          npx @capacitor/cli add android
+          npx @capacitor/cli copy android
           ls -la android
-
-      - name: Make gradlew executable
-        run: |
-          if [ -f android/gradlew ]; then chmod +x android/gradlew; else echo "gradlew missing"; exit 1; fi
-
       - name: Build Debug APK
-        run: cd android && ./gradlew assembleDebug --no-daemon
-
+        run: |
+          chmod +x android/gradlew
+          cd android && ./gradlew assembleDebug --no-daemon
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
