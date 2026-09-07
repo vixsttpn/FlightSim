@@ -1,0 +1,1101 @@
+[
+  {
+    "id": "ryanair-b738",
+    "aircraftId": "b738-001",
+    "compatibleIcaoTypes": [
+      "B738"
+    ],
+    "airlineName": "Ryanair",
+    "airlineIata": "FR",
+    "airlineIcao": "RYR",
+    "name": "Ryanair 2020 Livery",
+    "description": "Ryanair blue-yellow",
+    "primaryColor": "#073590",
+    "secondaryColor": "#FFC72C",
+    "accentColor": "#FFFFFF",
+    "texturePath": "/assets/textures/liveries/b738/ryanair.png",
+    "thumbnailPath": "/assets/thumbnails/liveries/b738/ryanair.jpg",
+    "yearIntroduced": 2014,
+    "popularityScore": 92,
+    "isDefault": false,
+    "isFictional": false,
+    "exampleRegistrations": [
+      "EI-EBM",
+      "EI-DCL"
+    ],
+    "country": "Ireland",
+    "type": "STANDARD"
+  },
+  {
+    "id": "aeroflot-b738",
+    "aircraftId": "b738-001",
+    "compatibleIcaoTypes": [
+      "B738"
+    ],
+    "airlineName": "Aeroflot",
+    "airlineIata": "SU",
+    "airlineIcao": "AFL",
+    "name": "Aeroflot Russian Airlines",
+    "description": "Aeroflot livery",
+    "primaryColor": "#00205B",
+    "secondaryColor": "#FF6600",
+    "accentColor": "#C0C0C0",
+    "texturePath": "/assets/textures/liveries/b738/aeroflot.png",
+    "thumbnailPath": "/assets/thumbnails/liveries/b738/aeroflot.jpg",
+    "yearIntroduced": 2003,
+    "popularityScore": 85,
+    "isDefault": true,
+    "isFictional": false,
+    "exampleRegistrations": [
+      "VQ-BIT",
+      "VP-BRF"
+    ],
+    "country": "Russia",
+    "type": "STANDARD"
+  },
+  {
+    "id": "s7-b738",
+    "aircraftId": "b738-001",
+    "compatibleIcaoTypes": [
+      "B738"
+    ],
+    "airlineName": "S7 Airlines",
+    "airlineIata": "S7",
+    "airlineIcao": "SBI",
+    "name": "S7 Airlines Green",
+    "description": "S7 green livery",
+    "primaryColor": "#7AC74F",
+    "secondaryColor": "#FFFFFF",
+    "accentColor": "#000000",
+    "texturePath": "/assets/textures/liveries/b738/s7.png",
+    "thumbnailPath": "/assets/thumbnails/liveries/b738/s7.jpg",
+    "yearIntroduced": 2006,
+    "popularityScore": 82,
+    "isDefault": false,
+    "isFictional": false,
+    "exampleRegistrations": [
+      "VP-BND",
+      "VQ-BKV"
+    ],
+    "country": "Russia",
+    "type": "STANDARD"
+  },
+  {
+    "id": "pobeda-b738-default",
+    "aircraftId": "b738-004",
+    "compatibleIcaoTypes": [
+      "B738"
+    ],
+    "airlineName": "Pobeda",
+    "airlineIata": "DP",
+    "airlineIcao": "PBD",
+    "name": "Pobeda Lowcost",
+    "description": "Pobeda white-blue",
+    "primaryColor": "#00AEEF",
+    "secondaryColor": "#FFFFFF",
+    "accentColor": "#00205B",
+    "texturePath": "/assets/textures/liveries/b738/pobeda.png",
+    "thumbnailPath": "/assets/thumbnails/liveries/b738/pobeda.jpg",
+    "yearIntroduced": 2014,
+    "popularityScore": 78,
+    "isDefault": true,
+    "isFictional": false,
+    "exampleRegistrations": [
+      "VQ-BTS",
+      "VP-BQJ"
+    ],
+    "country": "Russia",
+    "type": "STANDARD"
+  },
+  {
+    "id": "generic-b738-white",
+    "aircraftId": "b738-001",
+    "compatibleIcaoTypes": [
+      "B738"
+    ],
+    "airlineName": "Generic",
+    "airlineIata": "XX",
+    "airlineIcao": "GEN",
+    "name": "Generic White",
+    "description": "White generic",
+    "primaryColor": "#FFFFFF",
+    "secondaryColor": "#E0E0E0",
+    "accentColor": "#333333",
+    "texturePath": "/assets/textures/liveries/b738/generic_white.png",
+    "thumbnailPath": "/assets/thumbnails/liveries/b738/generic_white.jpg",
+    "yearIntroduced": 2000,
+    "popularityScore": 50,
+    "isDefault": true,
+    "isFictional": true,
+    "exampleRegistrations": [
+      "N738FS"
+    ],
+    "country": "USA",
+    "type": "DEFAULT"
+  },
+  {
+    "id": "united-b738-scimitar",
+    "aircraftId": "b738-002",
+    "compatibleIcaoTypes": [
+      "B738"
+    ],
+    "airlineName": "United Airlines",
+    "airlineIata": "UA",
+    "airlineIcao": "UAL",
+    "name": "United 2019 Livery Scimitar",
+    "description": "United split scimitar",
+    "primaryColor": "#002244",
+    "secondaryColor": "#A7C6ED",
+    "accentColor": "#FFB81C",
+    "texturePath": "/assets/textures/liveries/b738/united_scimitar.png",
+    "thumbnailPath": "/assets/thumbnails/liveries/b738/united_scimitar.jpg",
+    "yearIntroduced": 2019,
+    "popularityScore": 88,
+    "isDefault": false,
+    "isFictional": false,
+    "exampleRegistrations": [
+      "N27252",
+      "N77538"
+    ],
+    "country": "USA",
+    "type": "STANDARD"
+  },
+  {
+    "id": "alaska-b738-scimitar",
+    "aircraftId": "b738-002",
+    "compatibleIcaoTypes": [
+      "B738"
+    ],
+    "airlineName": "Alaska Airlines",
+    "airlineIata": "AS",
+    "airlineIcao": "ASA",
+    "name": "Alaska Airlines Eskimo",
+    "description": "Alaska eskimo",
+    "primaryColor": "#00385F",
+    "secondaryColor": "#00A94F",
+    "accentColor": "#FFFFFF",
+    "texturePath": "/assets/textures/liveries/b738/alaska_scimitar.png",
+    "thumbnailPath": "/assets/thumbnails/liveries/b738/alaska_scimitar.jpg",
+    "yearIntroduced": 2016,
+    "popularityScore": 75,
+    "isDefault": false,
+    "isFictional": false,
+    "exampleRegistrations": [
+      "N516AS",
+      "N565AS"
+    ],
+    "country": "USA",
+    "type": "STANDARD"
+  },
+  {
+    "id": "gol-b738-sfp",
+    "aircraftId": "b738-003",
+    "compatibleIcaoTypes": [
+      "B738"
+    ],
+    "airlineName": "GOL Linhas Aereas",
+    "airlineIata": "G3",
+    "airlineIcao": "GLO",
+    "name": "GOL Orange SFP",
+    "description": "GOL SFP orange",
+    "primaryColor": "#FF6A00",
+    "secondaryColor": "#FFFFFF",
+    "accentColor": "#000000",
+    "texturePath": "/assets/textures/liveries/b738/gol.png",
+    "thumbnailPath": "/assets/thumbnails/liveries/b738/gol.jpg",
+    "yearIntroduced": 2006,
+    "popularityScore": 68,
+    "isDefault": true,
+    "isFictional": false,
+    "exampleRegistrations": [
+      "PR-GTF",
+      "PR-GXO"
+    ],
+    "country": "Brazil",
+    "type": "STANDARD"
+  },
+  {
+    "id": "bbj2-private-white",
+    "aircraftId": "b738-005",
+    "compatibleIcaoTypes": [
+      "B738"
+    ],
+    "airlineName": "Private",
+    "airlineIata": "P4",
+    "airlineIcao": "PVT",
+    "name": "Private BBJ2 Luxury",
+    "description": "BBJ2 luxury white gold",
+    "primaryColor": "#FFFFFF",
+    "secondaryColor": "#D4AF37",
+    "accentColor": "#000000",
+    "texturePath": "/assets/textures/liveries/b738/bbj2_private.png",
+    "thumbnailPath": "/assets/thumbnails/liveries/b738/bbj2_private.jpg",
+    "yearIntroduced": 2005,
+    "popularityScore": 55,
+    "isDefault": true,
+    "isFictional": false,
+    "exampleRegistrations": [
+      "N835BA",
+      "VP-BBZ"
+    ],
+    "country": "USA",
+    "type": "SPECIAL"
+  },
+  {
+    "id": "aeroflot-a320",
+    "aircraftId": "a320-001",
+    "compatibleIcaoTypes": [
+      "A320"
+    ],
+    "airlineName": "Aeroflot",
+    "airlineIata": "SU",
+    "airlineIcao": "AFL",
+    "name": "Aeroflot Russian Airlines A320",
+    "description": "Aeroflot A320 ceo",
+    "primaryColor": "#00205B",
+    "secondaryColor": "#FF6600",
+    "accentColor": "#C0C0C0",
+    "texturePath": "/assets/textures/liveries/a320/aeroflot.png",
+    "thumbnailPath": "/assets/thumbnails/liveries/a320/aeroflot.jpg",
+    "yearIntroduced": 2008,
+    "popularityScore": 80,
+    "isDefault": true,
+    "isFictional": false,
+    "exampleRegistrations": [
+      "VQ-BAD",
+      "VP-BWD"
+    ],
+    "country": "Russia",
+    "type": "STANDARD"
+  },
+  {
+    "id": "s7-a320",
+    "aircraftId": "a320-001",
+    "compatibleIcaoTypes": [
+      "A320"
+    ],
+    "airlineName": "S7 Airlines",
+    "airlineIata": "S7",
+    "airlineIcao": "SBI",
+    "name": "S7 Airlines Green A320",
+    "description": "S7 green A320",
+    "primaryColor": "#7AC74F",
+    "secondaryColor": "#FFFFFF",
+    "accentColor": "#000000",
+    "texturePath": "/assets/textures/liveries/a320/s7.png",
+    "thumbnailPath": "/assets/thumbnails/liveries/a320/s7.jpg",
+    "yearIntroduced": 2006,
+    "popularityScore": 78,
+    "isDefault": false,
+    "isFictional": false,
+    "exampleRegistrations": [
+      "VP-BOL",
+      "VP-BOI"
+    ],
+    "country": "Russia",
+    "type": "STANDARD"
+  },
+  {
+    "id": "lufthansa-a320",
+    "aircraftId": "a320-001",
+    "compatibleIcaoTypes": [
+      "A320"
+    ],
+    "airlineName": "Lufthansa",
+    "airlineIata": "LH",
+    "airlineIcao": "DLH",
+    "name": "Lufthansa 1988 Retro",
+    "description": "Lufthansa classic crane",
+    "primaryColor": "#FFFFFF",
+    "secondaryColor": "#05164D",
+    "accentColor": "#FFAD00",
+    "texturePath": "/assets/textures/liveries/a320/lufthansa.png",
+    "thumbnailPath": "/assets/thumbnails/liveries/a320/lufthansa.jpg",
+    "yearIntroduced": 1988,
+    "popularityScore": 90,
+    "isDefault": false,
+    "isFictional": false,
+    "exampleRegistrations": [
+      "D-AIPA",
+      "D-AIZR"
+    ],
+    "country": "Germany",
+    "type": "STANDARD"
+  },
+  {
+    "id": "airfrance-a320",
+    "aircraftId": "a320-001",
+    "compatibleIcaoTypes": [
+      "A320"
+    ],
+    "airlineName": "Air France",
+    "airlineIata": "AF",
+    "airlineIcao": "AFR",
+    "name": "Air France 2019",
+    "description": "Air France white blue-red",
+    "primaryColor": "#FFFFFF",
+    "secondaryColor": "#002654",
+    "accentColor": "#ED2939",
+    "texturePath": "/assets/textures/liveries/a320/airfrance.png",
+    "thumbnailPath": "/assets/thumbnails/liveries/a320/airfrance.jpg",
+    "yearIntroduced": 2019,
+    "popularityScore": 85,
+    "isDefault": false,
+    "isFictional": false,
+    "exampleRegistrations": [
+      "F-GKXD",
+      "F-HEPF"
+    ],
+    "country": "France",
+    "type": "STANDARD"
+  },
+  {
+    "id": "generic-a320-white",
+    "aircraftId": "a320-001",
+    "compatibleIcaoTypes": [
+      "A320"
+    ],
+    "airlineName": "Generic",
+    "airlineIata": "XX",
+    "airlineIcao": "GEN",
+    "name": "Generic White A320",
+    "description": "Generic white A320",
+    "primaryColor": "#FFFFFF",
+    "secondaryColor": "#E0E0E0",
+    "accentColor": "#333333",
+    "texturePath": "/assets/textures/liveries/a320/generic_white.png",
+    "thumbnailPath": "/assets/thumbnails/liveries/a320/generic_white.jpg",
+    "yearIntroduced": 2000,
+    "popularityScore": 45,
+    "isDefault": true,
+    "isFictional": true,
+    "exampleRegistrations": [
+      "N320FS"
+    ],
+    "country": "USA",
+    "type": "DEFAULT"
+  },
+  {
+    "id": "wizzair-a320-iae",
+    "aircraftId": "a320-002",
+    "compatibleIcaoTypes": [
+      "A320"
+    ],
+    "airlineName": "Wizz Air",
+    "airlineIata": "W6",
+    "airlineIcao": "WZZ",
+    "name": "Wizz Air Pink",
+    "description": "Wizz pink purple IAE",
+    "primaryColor": "#C6007E",
+    "secondaryColor": "#7B1A7E",
+    "accentColor": "#FFFFFF",
+    "texturePath": "/assets/textures/liveries/a320/wizzair.png",
+    "thumbnailPath": "/assets/thumbnails/liveries/a320/wizzair.jpg",
+    "yearIntroduced": 2004,
+    "popularityScore": 77,
+    "isDefault": false,
+    "isFictional": false,
+    "exampleRegistrations": [
+      "HA-LWX",
+      "HA-LWY"
+    ],
+    "country": "Hungary",
+    "type": "STANDARD"
+  },
+  {
+    "id": "ural-a320-iae",
+    "aircraftId": "a320-002",
+    "compatibleIcaoTypes": [
+      "A320"
+    ],
+    "airlineName": "Ural Airlines",
+    "airlineIata": "U6",
+    "airlineIcao": "SVR",
+    "name": "Ural Airlines IAE",
+    "description": "Ural white-blue",
+    "primaryColor": "#FFFFFF",
+    "secondaryColor": "#0061AA",
+    "accentColor": "#ED1C24",
+    "texturePath": "/assets/textures/liveries/a320/ural.png",
+    "thumbnailPath": "/assets/thumbnails/liveries/a320/ural.jpg",
+    "yearIntroduced": 2010,
+    "popularityScore": 65,
+    "isDefault": false,
+    "isFictional": false,
+    "exampleRegistrations": [
+      "VP-BBH",
+      "VP-BFJ"
+    ],
+    "country": "Russia",
+    "type": "STANDARD"
+  },
+  {
+    "id": "british-a320",
+    "aircraftId": "a320-002",
+    "compatibleIcaoTypes": [
+      "A320"
+    ],
+    "airlineName": "British Airways",
+    "airlineIata": "BA",
+    "airlineIcao": "BAW",
+    "name": "British Airways Union Flag",
+    "description": "BA union flag tail",
+    "primaryColor": "#FFFFFF",
+    "secondaryColor": "#012169",
+    "accentColor": "#C8102E",
+    "texturePath": "/assets/textures/liveries/a320/british.png",
+    "thumbnailPath": "/assets/thumbnails/liveries/a320/british.jpg",
+    "yearIntroduced": 1997,
+    "popularityScore": 88,
+    "isDefault": false,
+    "isFictional": false,
+    "exampleRegistrations": [
+      "G-EUUA",
+      "G-EUYB"
+    ],
+    "country": "United Kingdom",
+    "type": "STANDARD"
+  },
+  {
+    "id": "aeroflot-a320-sharklets",
+    "aircraftId": "a320-003",
+    "compatibleIcaoTypes": [
+      "A320"
+    ],
+    "airlineName": "Aeroflot",
+    "airlineIata": "SU",
+    "airlineIcao": "AFL",
+    "name": "Aeroflot A320 Sharklets",
+    "description": "Aeroflot 2018 sharklets",
+    "primaryColor": "#FFFFFF",
+    "secondaryColor": "#FF6600",
+    "accentColor": "#00205B",
+    "texturePath": "/assets/textures/liveries/a320/aeroflot_sharklets.png",
+    "thumbnailPath": "/assets/thumbnails/liveries/a320/aeroflot_sharklets.jpg",
+    "yearIntroduced": 2018,
+    "popularityScore": 80,
+    "isDefault": false,
+    "isFictional": false,
+    "exampleRegistrations": [
+      "VP-BAY",
+      "VP-BAX"
+    ],
+    "country": "Russia",
+    "type": "STANDARD"
+  },
+  {
+    "id": "s7-a320-neo",
+    "aircraftId": "a320-004",
+    "compatibleIcaoTypes": [
+      "A320"
+    ],
+    "airlineName": "S7 Airlines",
+    "airlineIata": "S7",
+    "airlineIcao": "SBI",
+    "name": "S7 Airlines NEO",
+    "description": "S7 NEO mask",
+    "primaryColor": "#7AC74F",
+    "secondaryColor": "#FFFFFF",
+    "accentColor": "#000000",
+    "texturePath": "/assets/textures/liveries/a320/s7_neo.png",
+    "thumbnailPath": "/assets/thumbnails/liveries/a320/s7_neo.jpg",
+    "yearIntroduced": 2017,
+    "popularityScore": 84,
+    "isDefault": true,
+    "isFictional": false,
+    "exampleRegistrations": [
+      "VQ-BSK",
+      "VQ-BRG"
+    ],
+    "country": "Russia",
+    "type": "STANDARD"
+  },
+  {
+    "id": "aeroflot-a320-neo",
+    "aircraftId": "a320-004",
+    "compatibleIcaoTypes": [
+      "A320"
+    ],
+    "airlineName": "Aeroflot",
+    "airlineIata": "SU",
+    "airlineIcao": "AFL",
+    "name": "Aeroflot A320neo",
+    "description": "Aeroflot NEO new livery",
+    "primaryColor": "#FFFFFF",
+    "secondaryColor": "#00205B",
+    "accentColor": "#FF6600",
+    "texturePath": "/assets/textures/liveries/a320/aeroflot_neo.png",
+    "thumbnailPath": "/assets/thumbnails/liveries/a320/aeroflot_neo.jpg",
+    "yearIntroduced": 2018,
+    "popularityScore": 82,
+    "isDefault": false,
+    "isFictional": false,
+    "exampleRegistrations": [
+      "VP-BSN",
+      "VP-BSO"
+    ],
+    "country": "Russia",
+    "type": "STANDARD"
+  },
+  {
+    "id": "ural-a320-neo",
+    "aircraftId": "a320-004",
+    "compatibleIcaoTypes": [
+      "A320"
+    ],
+    "airlineName": "Ural Airlines",
+    "airlineIata": "U6",
+    "airlineIcao": "SVR",
+    "name": "Ural Airlines A320neo",
+    "description": "Ural NEO",
+    "primaryColor": "#FFFFFF",
+    "secondaryColor": "#0061AA",
+    "accentColor": "#ED1C24",
+    "texturePath": "/assets/textures/liveries/a320/ural_neo.png",
+    "thumbnailPath": "/assets/thumbnails/liveries/a320/ural_neo.jpg",
+    "yearIntroduced": 2019,
+    "popularityScore": 70,
+    "isDefault": false,
+    "isFictional": false,
+    "exampleRegistrations": [
+      "VQ-BLO",
+      "VQ-BLM"
+    ],
+    "country": "Russia",
+    "type": "STANDARD"
+  },
+  {
+    "id": "easyjet-a320-hd",
+    "aircraftId": "a320-005",
+    "compatibleIcaoTypes": [
+      "A320"
+    ],
+    "airlineName": "easyJet",
+    "airlineIata": "U2",
+    "airlineIcao": "EZY",
+    "name": "easyJet Orange",
+    "description": "easyJet orange 180Y",
+    "primaryColor": "#FF6600",
+    "secondaryColor": "#FFFFFF",
+    "accentColor": "#000000",
+    "texturePath": "/assets/textures/liveries/a320/easyjet_hd.png",
+    "thumbnailPath": "/assets/thumbnails/liveries/a320/easyjet_hd.jpg",
+    "yearIntroduced": 1995,
+    "popularityScore": 88,
+    "isDefault": false,
+    "isFictional": false,
+    "exampleRegistrations": [
+      "G-UZHA",
+      "G-UZHB"
+    ],
+    "country": "United Kingdom",
+    "type": "STANDARD"
+  },
+  {
+    "id": "pobeda-a320f",
+    "aircraftId": "a320-005",
+    "compatibleIcaoTypes": [
+      "A320"
+    ],
+    "airlineName": "Pobeda",
+    "airlineIata": "DP",
+    "airlineIcao": "PBD",
+    "name": "Pobeda Fictional A320",
+    "description": "Pobeda fictional A320 sim",
+    "primaryColor": "#00AEEF",
+    "secondaryColor": "#FFFFFF",
+    "accentColor": "#00205B",
+    "texturePath": "/assets/textures/liveries/a320/pobeda_a320.png",
+    "thumbnailPath": "/assets/thumbnails/liveries/a320/pobeda_a320.jpg",
+    "yearIntroduced": 2020,
+    "popularityScore": 60,
+    "isDefault": false,
+    "isFictional": true,
+    "exampleRegistrations": [
+      "VP-FBD"
+    ],
+    "country": "Russia",
+    "type": "STANDARD"
+  },
+  {
+    "id": "emirates-b77w",
+    "aircraftId": "b77w-001",
+    "compatibleIcaoTypes": [
+      "B77W"
+    ],
+    "airlineName": "Emirates",
+    "airlineIata": "EK",
+    "airlineIcao": "UAE",
+    "name": "Emirates Standard",
+    "description": "Emirates white green red tail gold",
+    "primaryColor": "#FFFFFF",
+    "secondaryColor": "#D71921",
+    "accentColor": "#006747",
+    "texturePath": "/assets/textures/liveries/b77w/emirates.png",
+    "thumbnailPath": "/assets/thumbnails/liveries/b77w/emirates.jpg",
+    "yearIntroduced": 1999,
+    "popularityScore": 97,
+    "isDefault": true,
+    "isFictional": false,
+    "exampleRegistrations": [
+      "A6-EGY",
+      "A6-EPB"
+    ],
+    "country": "UAE",
+    "type": "STANDARD"
+  },
+  {
+    "id": "aeroflot-b77w",
+    "aircraftId": "b77w-001",
+    "compatibleIcaoTypes": [
+      "B77W"
+    ],
+    "airlineName": "Aeroflot",
+    "airlineIata": "SU",
+    "airlineIcao": "AFL",
+    "name": "Aeroflot Long Haul",
+    "description": "Aeroflot B777 long haul",
+    "primaryColor": "#FFFFFF",
+    "secondaryColor": "#00205B",
+    "accentColor": "#FF6600",
+    "texturePath": "/assets/textures/liveries/b77w/aeroflot_77w.png",
+    "thumbnailPath": "/assets/thumbnails/liveries/b77w/aeroflot_77w.jpg",
+    "yearIntroduced": 2013,
+    "popularityScore": 80,
+    "isDefault": false,
+    "isFictional": false,
+    "exampleRegistrations": [
+      "VQ-BUB",
+      "VP-BFL"
+    ],
+    "country": "Russia",
+    "type": "STANDARD"
+  },
+  {
+    "id": "qatar-b77w",
+    "aircraftId": "b77w-001",
+    "compatibleIcaoTypes": [
+      "B77W"
+    ],
+    "airlineName": "Qatar Airways",
+    "airlineIata": "QR",
+    "airlineIcao": "QTR",
+    "name": "Qatar Airways Oryx",
+    "description": "Qatar white-grey oryx",
+    "primaryColor": "#FFFFFF",
+    "secondaryColor": "#8E0D32",
+    "accentColor": "#5C5C5C",
+    "texturePath": "/assets/textures/liveries/b77w/qatar.png",
+    "thumbnailPath": "/assets/thumbnails/liveries/b77w/qatar.jpg",
+    "yearIntroduced": 2006,
+    "popularityScore": 93,
+    "isDefault": false,
+    "isFictional": false,
+    "exampleRegistrations": [
+      "A7-BAB",
+      "A7-BBA"
+    ],
+    "country": "Qatar",
+    "type": "STANDARD"
+  },
+  {
+    "id": "singapore-b77w",
+    "aircraftId": "b77w-001",
+    "compatibleIcaoTypes": [
+      "B77W"
+    ],
+    "airlineName": "Singapore Airlines",
+    "airlineIata": "SQ",
+    "airlineIcao": "SIA",
+    "name": "Singapore Airlines 2010",
+    "description": "Singapore white blue",
+    "primaryColor": "#FFFFFF",
+    "secondaryColor": "#00205B",
+    "accentColor": "#FFB81C",
+    "texturePath": "/assets/textures/liveries/b77w/singapore.png",
+    "thumbnailPath": "/assets/thumbnails/liveries/b77w/singapore.jpg",
+    "yearIntroduced": 2007,
+    "popularityScore": 90,
+    "isDefault": false,
+    "isFictional": false,
+    "exampleRegistrations": [
+      "9V-SWA",
+      "9V-SWY"
+    ],
+    "country": "Singapore",
+    "type": "STANDARD"
+  },
+  {
+    "id": "generic-b77w-white",
+    "aircraftId": "b77w-001",
+    "compatibleIcaoTypes": [
+      "B77W"
+    ],
+    "airlineName": "Generic",
+    "airlineIata": "XX",
+    "airlineIcao": "GEN",
+    "name": "Generic White B77W",
+    "description": "Generic white B77W",
+    "primaryColor": "#FFFFFF",
+    "secondaryColor": "#E0E0E0",
+    "accentColor": "#333333",
+    "texturePath": "/assets/textures/liveries/b77w/generic_white.png",
+    "thumbnailPath": "/assets/thumbnails/liveries/b77w/generic_white.jpg",
+    "yearIntroduced": 2000,
+    "popularityScore": 40,
+    "isDefault": true,
+    "isFictional": true,
+    "exampleRegistrations": [
+      "N77WFS"
+    ],
+    "country": "USA",
+    "type": "DEFAULT"
+  },
+  {
+    "id": "qatar-b77w-oneworld",
+    "aircraftId": "b77w-002",
+    "compatibleIcaoTypes": [
+      "B77W"
+    ],
+    "airlineName": "Qatar Airways",
+    "airlineIata": "QR",
+    "airlineIcao": "QTR",
+    "name": "Qatar OneWorld Alliance",
+    "description": "OneWorld alliance livery",
+    "primaryColor": "#FFFFFF",
+    "secondaryColor": "#5C068C",
+    "accentColor": "#000000",
+    "texturePath": "/assets/textures/liveries/b77w/qatar_oneworld.png",
+    "thumbnailPath": "/assets/thumbnails/liveries/b77w/qatar_oneworld.jpg",
+    "yearIntroduced": 2014,
+    "popularityScore": 85,
+    "isDefault": false,
+    "isFictional": false,
+    "exampleRegistrations": [
+      "A7-BAB"
+    ],
+    "country": "Qatar",
+    "type": "ALLIANCE"
+  },
+  {
+    "id": "cathay-b77w",
+    "aircraftId": "b77w-003",
+    "compatibleIcaoTypes": [
+      "B77W"
+    ],
+    "airlineName": "Cathay Pacific",
+    "airlineIata": "CX",
+    "airlineIcao": "CPA",
+    "name": "Cathay Pacific Brushwing",
+    "description": "Cathay green brushwing",
+    "primaryColor": "#006564",
+    "secondaryColor": "#FFFFFF",
+    "accentColor": "#6DBE4B",
+    "texturePath": "/assets/textures/liveries/b77w/cathay.png",
+    "thumbnailPath": "/assets/thumbnails/liveries/b77w/cathay.jpg",
+    "yearIntroduced": 2015,
+    "popularityScore": 88,
+    "isDefault": false,
+    "isFictional": false,
+    "exampleRegistrations": [
+      "B-KPM",
+      "B-KPQ"
+    ],
+    "country": "Hong Kong",
+    "type": "STANDARD"
+  },
+  {
+    "id": "aerologic-b77w-cargo",
+    "aircraftId": "b77w-005",
+    "compatibleIcaoTypes": [
+      "B77W"
+    ],
+    "airlineName": "AeroLogic",
+    "airlineIata": "3S",
+    "airlineIcao": "BOX",
+    "name": "AeroLogic Cargo",
+    "description": "AeroLogic DHL cargo",
+    "primaryColor": "#FFCC00",
+    "secondaryColor": "#FFFFFF",
+    "accentColor": "#D40511",
+    "texturePath": "/assets/textures/liveries/b77w/aerologic_cargo.png",
+    "thumbnailPath": "/assets/thumbnails/liveries/b77w/aerologic_cargo.jpg",
+    "yearIntroduced": 2009,
+    "popularityScore": 65,
+    "isDefault": true,
+    "isFictional": false,
+    "exampleRegistrations": [
+      "D-AALF",
+      "D-AALD"
+    ],
+    "country": "Germany",
+    "type": "CARGO"
+  },
+  {
+    "id": "generic-b77w-cargo-white",
+    "aircraftId": "b77w-005",
+    "compatibleIcaoTypes": [
+      "B77W"
+    ],
+    "airlineName": "Generic Cargo",
+    "airlineIata": "XX",
+    "airlineIcao": "GEN",
+    "name": "Generic Cargo White",
+    "description": "White cargo generic",
+    "primaryColor": "#FFFFFF",
+    "secondaryColor": "#CCCCCC",
+    "accentColor": "#333333",
+    "texturePath": "/assets/textures/liveries/b77w/generic_cargo.png",
+    "thumbnailPath": "/assets/thumbnails/liveries/b77w/generic_cargo.jpg",
+    "yearIntroduced": 2000,
+    "popularityScore": 35,
+    "isDefault": false,
+    "isFictional": true,
+    "exampleRegistrations": [
+      "N77WGC"
+    ],
+    "country": "USA",
+    "type": "CARGO"
+  },
+  {
+    "id": "emirates-a388",
+    "aircraftId": "a388-001",
+    "compatibleIcaoTypes": [
+      "A388"
+    ],
+    "airlineName": "Emirates",
+    "airlineIata": "EK",
+    "airlineIcao": "UAE",
+    "name": "Emirates A380 Standard",
+    "description": "Emirates A380 largest operator",
+    "primaryColor": "#FFFFFF",
+    "secondaryColor": "#D71921",
+    "accentColor": "#006747",
+    "texturePath": "/assets/textures/liveries/a388/emirates.png",
+    "thumbnailPath": "/assets/thumbnails/liveries/a388/emirates.jpg",
+    "yearIntroduced": 2008,
+    "popularityScore": 98,
+    "isDefault": true,
+    "isFictional": false,
+    "exampleRegistrations": [
+      "A6-EDA",
+      "A6-EDY"
+    ],
+    "country": "UAE",
+    "type": "STANDARD"
+  },
+  {
+    "id": "singapore-a388",
+    "aircraftId": "a388-001",
+    "compatibleIcaoTypes": [
+      "A388"
+    ],
+    "airlineName": "Singapore Airlines",
+    "airlineIata": "SQ",
+    "airlineIcao": "SIA",
+    "name": "Singapore Airlines A380",
+    "description": "First commercial operator A380",
+    "primaryColor": "#FFFFFF",
+    "secondaryColor": "#00205B",
+    "accentColor": "#FFB81C",
+    "texturePath": "/assets/textures/liveries/a388/singapore.png",
+    "thumbnailPath": "/assets/thumbnails/liveries/a388/singapore.jpg",
+    "yearIntroduced": 2007,
+    "popularityScore": 92,
+    "isDefault": false,
+    "isFictional": false,
+    "exampleRegistrations": [
+      "9V-SKA",
+      "9V-SKH"
+    ],
+    "country": "Singapore",
+    "type": "STANDARD"
+  },
+  {
+    "id": "lufthansa-a388-old",
+    "aircraftId": "a388-001",
+    "compatibleIcaoTypes": [
+      "A388"
+    ],
+    "airlineName": "Lufthansa",
+    "airlineIata": "LH",
+    "airlineIcao": "DLH",
+    "name": "Lufthansa Classic A380",
+    "description": "Lufthansa classic crane A380",
+    "primaryColor": "#FFFFFF",
+    "secondaryColor": "#05164D",
+    "accentColor": "#FFAD00",
+    "texturePath": "/assets/textures/liveries/a388/lufthansa_old.png",
+    "thumbnailPath": "/assets/thumbnails/liveries/a388/lufthansa_old.jpg",
+    "yearIntroduced": 2010,
+    "popularityScore": 85,
+    "isDefault": false,
+    "isFictional": false,
+    "exampleRegistrations": [
+      "D-AIMA",
+      "D-AIMB"
+    ],
+    "country": "Germany",
+    "type": "STANDARD"
+  },
+  {
+    "id": "generic-a388-white",
+    "aircraftId": "a388-001",
+    "compatibleIcaoTypes": [
+      "A388"
+    ],
+    "airlineName": "Generic",
+    "airlineIata": "XX",
+    "airlineIcao": "GEN",
+    "name": "Generic White A380",
+    "description": "White generic A380 test",
+    "primaryColor": "#FFFFFF",
+    "secondaryColor": "#E0E0E0",
+    "accentColor": "#333333",
+    "texturePath": "/assets/textures/liveries/a388/generic_white.png",
+    "thumbnailPath": "/assets/thumbnails/liveries/a388/generic_white.jpg",
+    "yearIntroduced": 2000,
+    "popularityScore": 30,
+    "isDefault": true,
+    "isFictional": true,
+    "exampleRegistrations": [
+      "F-WWOW"
+    ],
+    "country": "France",
+    "type": "DEFAULT"
+  },
+  {
+    "id": "airfrance-a388-gp",
+    "aircraftId": "a388-002",
+    "compatibleIcaoTypes": [
+      "A388"
+    ],
+    "airlineName": "Air France",
+    "airlineIata": "AF",
+    "airlineIcao": "AFR",
+    "name": "Air France A380 GP7200",
+    "description": "Air France A380 GP",
+    "primaryColor": "#FFFFFF",
+    "secondaryColor": "#002654",
+    "accentColor": "#ED2939",
+    "texturePath": "/assets/textures/liveries/a388/airfrance_gp.png",
+    "thumbnailPath": "/assets/thumbnails/liveries/a388/airfrance_gp.jpg",
+    "yearIntroduced": 2009,
+    "popularityScore": 80,
+    "isDefault": false,
+    "isFictional": false,
+    "exampleRegistrations": [
+      "F-HPJA",
+      "F-HPJC"
+    ],
+    "country": "France",
+    "type": "STANDARD"
+  },
+  {
+    "id": "ethihad-a388",
+    "aircraftId": "a388-002",
+    "compatibleIcaoTypes": [
+      "A388"
+    ],
+    "airlineName": "Etihad Airways",
+    "airlineIata": "EY",
+    "airlineIcao": "ETD",
+    "name": "Etihad Facets of Abu Dhabi",
+    "description": "Etihad facets gradient",
+    "primaryColor": "#C8A97E",
+    "secondaryColor": "#FFFFFF",
+    "accentColor": "#000000",
+    "texturePath": "/assets/textures/liveries/a388/etihad.png",
+    "thumbnailPath": "/assets/thumbnails/liveries/a388/etihad.jpg",
+    "yearIntroduced": 2014,
+    "popularityScore": 88,
+    "isDefault": false,
+    "isFictional": false,
+    "exampleRegistrations": [
+      "A6-APB",
+      "A6-APE"
+    ],
+    "country": "UAE",
+    "type": "STANDARD"
+  },
+  {
+    "id": "emirates-a388-hgw",
+    "aircraftId": "a388-003",
+    "compatibleIcaoTypes": [
+      "A388"
+    ],
+    "airlineName": "Emirates",
+    "airlineIata": "EK",
+    "airlineIcao": "UAE",
+    "name": "Emirates A380 575t HGW",
+    "description": "Emirates HGW 575t",
+    "primaryColor": "#FFFFFF",
+    "secondaryColor": "#D71921",
+    "accentColor": "#006747",
+    "texturePath": "/assets/textures/liveries/a388/emirates_hgw.png",
+    "thumbnailPath": "/assets/thumbnails/liveries/a388/emirates_hgw.jpg",
+    "yearIntroduced": 2012,
+    "popularityScore": 90,
+    "isDefault": false,
+    "isFictional": false,
+    "exampleRegistrations": [
+      "A6-EEA",
+      "A6-EEB"
+    ],
+    "country": "UAE",
+    "type": "STANDARD"
+  },
+  {
+    "id": "qatar-a388",
+    "aircraftId": "a388-003",
+    "compatibleIcaoTypes": [
+      "A388"
+    ],
+    "airlineName": "Qatar Airways",
+    "airlineIata": "QR",
+    "airlineIcao": "QTR",
+    "name": "Qatar Airways A380",
+    "description": "Qatar bordo A380",
+    "primaryColor": "#FFFFFF",
+    "secondaryColor": "#8E0D32",
+    "accentColor": "#5C5C5C",
+    "texturePath": "/assets/textures/liveries/a388/qatar_a380.png",
+    "thumbnailPath": "/assets/thumbnails/liveries/a388/qatar_a380.jpg",
+    "yearIntroduced": 2014,
+    "popularityScore": 87,
+    "isDefault": false,
+    "isFictional": false,
+    "exampleRegistrations": [
+      "A7-APA",
+      "A7-APC"
+    ],
+    "country": "Qatar",
+    "type": "STANDARD"
+  },
+  {
+    "id": "emirates-a388-plus",
+    "aircraftId": "a388-005",
+    "compatibleIcaoTypes": [
+      "A388"
+    ],
+    "airlineName": "Emirates",
+    "airlineIata": "EK",
+    "airlineIcao": "UAE",
+    "name": "Emirates A380plus Concept",
+    "description": "Emirates A380plus new winglets concept",
+    "primaryColor": "#FFFFFF",
+    "secondaryColor": "#D71921",
+    "accentColor": "#00A699",
+    "texturePath": "/assets/textures/liveries/a388/emirates_plus.png",
+    "thumbnailPath": "/assets/thumbnails/liveries/a388/emirates_plus.jpg",
+    "yearIntroduced": 2017,
+    "popularityScore": 75,
+    "isDefault": false,
+    "isFictional": true,
+    "exampleRegistrations": [
+      "A6-EVC"
+    ],
+    "country": "UAE",
+    "type": "SPECIAL"
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "name": "FlightSim",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite",
+  "projects": {
+    "app": {
+      "name": "FlightSim",
+      "integrations": {
+        "capacitor": {}
+      },
+      "root": "",
+      "projectType": "app",
+      "architect": {
+        "build": {
+          "options": {
+            "outputPath": "dist"
+          }
+        }
+      }
+    }
+  }
+}

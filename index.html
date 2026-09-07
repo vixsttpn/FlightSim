@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+
+    <!-- Цвет статус-бара - фирменный пурпурный FlightSim -->
+    <meta name="theme-color" content="#cc00cc" />
+    <meta name="color-scheme" content="light dark" />
+
+    <!-- SEO и описание -->
+    <title>FlightSim</title>
+    <meta name="description" content="FlightSim - Мобильный авиасимулятор на Ionic React + Capacitor" />
+
+    <!-- Иконки -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- Ionic PWA элементы если нужны -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="FlightSim" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <!-- Шрифты Ionic оптимизированы -->
+    <style>
+      /* Базовый сброс для Capacitor */
+      html { 
+        padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+      }
+      body {
+        background: #cc00cc;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Корень React приложения -->
+    <div id="root"></div>
+
+    <!-- Точка входа - будет создан субагентами -->
+    <script type="module" src="/src/main.tsx"></script>
+
+    <!-- Заглушка пока src не готов -->
+    <noscript>
+      Для работы FlightSim требуется включенный JavaScript.
+    </noscript>
+  </body>
+</html>

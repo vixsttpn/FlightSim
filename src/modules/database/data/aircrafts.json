@@ -1,0 +1,1958 @@
+[
+  {
+    "id": "b738-001",
+    "icaoCode": "B738",
+    "iataCode": "738",
+    "model": "Boeing 737-800",
+    "type": "B737-800",
+    "manufacturer": "Boeing",
+    "family": "737 NG",
+    "name": "Boeing 737-800 Standard Winglet",
+    "category": "NARROW_BODY",
+    "status": "ACTIVE",
+    "firstFlightYear": 1997,
+    "description": "Базовый B737-800 с классическими blended winglets. Самый массовый вариант 737NG, рабочая лошадка для средних магистралей.",
+    "dimensions": {
+      "length_m": 39.5,
+      "wingspan_m": 35.8,
+      "height_m": 12.5,
+      "wingArea_m2": 125.0,
+      "wheelbase_m": 15.6
+    },
+    "weights": {
+      "mtow_kg": 79015,
+      "mlw_kg": 66360,
+      "mzfw_kg": 62710,
+      "oew_kg": 41413,
+      "maxFuel_kg": 26020,
+      "maxPayload_kg": 21290
+    },
+    "engines": [
+      {
+        "model": "CFM56-7B26",
+        "manufacturer": "CFM International",
+        "type": "TURBOFAN",
+        "thrust_kN": 117.0,
+        "thrust_lbf": 26300,
+        "bypassRatio": 5.5,
+        "count": 2
+      }
+    ],
+    "performance": {
+      "maxRange_km": 5436,
+      "maxRange_nm": 2935,
+      "ceiling_ft": 41000,
+      "ceiling_m": 12500,
+      "cruiseMach": 0.785,
+      "cruiseSpeed_kts": 453,
+      "cruiseSpeed_kmh": 839,
+      "maxMach": 0.82,
+      "climbRate_fpm": 2500,
+      "takeoffDistance_m": 2316,
+      "landingDistance_m": 1826,
+      "fuelBurn_kgph": 2500,
+      "maxFuelFlow_kgph": 6500
+    },
+    "speeds": {
+      "vmo_kts": 340,
+      "mmo": 0.82,
+      "vs0_kts": 113,
+      "vs1_kts": 138,
+      "vne_kts": 360,
+      "vr_kts": 145,
+      "vapp_kts": 141
+    },
+    "capacity": {
+      "maxPax": 189,
+      "typicalTwoClass": 162,
+      "typicalThreeClass": 0,
+      "cockpitCrew": 2,
+      "cargoCapacity_m3": 45.1,
+      "cargoCapacity_kg": 7000
+    },
+    "wingtipDevice": "WINGLET",
+    "availableLiveryIds": [
+      "ryanair-b738",
+      "aeroflot-b738",
+      "s7-b738",
+      "pobeda-b738-default",
+      "generic-b738-white"
+    ],
+    "features": [
+      "EFIS",
+      "FMC",
+      "Autoland CAT IIIb",
+      "Winglets",
+      "ETOPS 180"
+    ],
+    "tags": [
+      "narrowbody",
+      "popular",
+      "beginner-friendly",
+      "short-medium",
+      "boeing",
+      "b737"
+    ],
+    "model3dPath": "/assets/models/aircraft/b738/b738-001.gltf",
+    "thumbnailPath": "/assets/thumbnails/aircraft/b738-001.jpg",
+    "difficultyLevel": 3,
+    "popularityScore": 95,
+    "beginnerFriendly": true
+  },
+  {
+    "id": "b738-002",
+    "icaoCode": "B738",
+    "iataCode": "738",
+    "model": "Boeing 737-800 Split Scimitar",
+    "type": "B737-800SFP",
+    "manufacturer": "Boeing",
+    "family": "737 NG",
+    "name": "Boeing 737-800 Split Scimitar Winglets",
+    "category": "NARROW_BODY",
+    "status": "ACTIVE",
+    "firstFlightYear": 2014,
+    "description": "Модернизированный B738 с раздвоенными законцовками Split Scimitar. Экономия топлива до 2% и увеличенная дальность.",
+    "dimensions": {
+      "length_m": 39.5,
+      "wingspan_m": 35.92,
+      "height_m": 12.5,
+      "wingArea_m2": 125.0,
+      "wheelbase_m": 15.6
+    },
+    "weights": {
+      "mtow_kg": 79015,
+      "mlw_kg": 66360,
+      "mzfw_kg": 62710,
+      "oew_kg": 41530,
+      "maxFuel_kg": 26020,
+      "maxPayload_kg": 21170
+    },
+    "engines": [
+      {
+        "model": "CFM56-7B27",
+        "manufacturer": "CFM International",
+        "type": "TURBOFAN",
+        "thrust_kN": 121.4,
+        "thrust_lbf": 27300,
+        "bypassRatio": 5.5,
+        "count": 2
+      }
+    ],
+    "performance": {
+      "maxRange_km": 5665,
+      "maxRange_nm": 3059,
+      "ceiling_ft": 41000,
+      "ceiling_m": 12500,
+      "cruiseMach": 0.785,
+      "cruiseSpeed_kts": 454,
+      "cruiseSpeed_kmh": 841,
+      "maxMach": 0.82,
+      "climbRate_fpm": 2550,
+      "takeoffDistance_m": 2240,
+      "landingDistance_m": 1826,
+      "fuelBurn_kgph": 2450,
+      "maxFuelFlow_kgph": 6500
+    },
+    "speeds": {
+      "vmo_kts": 340,
+      "mmo": 0.82,
+      "vs0_kts": 114,
+      "vs1_kts": 138,
+      "vne_kts": 360,
+      "vr_kts": 144,
+      "vapp_kts": 140
+    },
+    "capacity": {
+      "maxPax": 189,
+      "typicalTwoClass": 162,
+      "typicalThreeClass": 0,
+      "cockpitCrew": 2,
+      "cargoCapacity_m3": 45.1,
+      "cargoCapacity_kg": 7000
+    },
+    "wingtipDevice": "SPLIT_SCIMITAR",
+    "availableLiveryIds": [
+      "united-b738-scimitar",
+      "alaska-b738-scimitar",
+      "generic-b738-white",
+      "aeroflot-b738",
+      "s7-b738"
+    ],
+    "features": [
+      "Split Scimitar",
+      "Improved Fuel Burn",
+      "EFIS",
+      "FMC",
+      "ETOPS 180",
+      "Advanced FMS"
+    ],
+    "tags": [
+      "narrowbody",
+      "efficient",
+      "scimitar",
+      "modern",
+      "boeing"
+    ],
+    "model3dPath": "/assets/models/aircraft/b738/b738-002.gltf",
+    "thumbnailPath": "/assets/thumbnails/aircraft/b738-002.jpg",
+    "difficultyLevel": 3,
+    "popularityScore": 88,
+    "beginnerFriendly": true
+  },
+  {
+    "id": "b738-003",
+    "icaoCode": "B738",
+    "iataCode": "738",
+    "model": "Boeing 737-800 SFP",
+    "type": "B737-800 SFP",
+    "manufacturer": "Boeing",
+    "family": "737 NG",
+    "name": "Boeing 737-800 Short Field Performance",
+    "category": "NARROW_BODY",
+    "status": "ACTIVE",
+    "firstFlightYear": 2006,
+    "description": "Вариант SFP для коротких ВПП: улучшенная механизация крыла, двухпозиционные хвостовые щитки, повышенная эффективность на малых полосах.",
+    "dimensions": {
+      "length_m": 39.5,
+      "wingspan_m": 35.8,
+      "height_m": 12.5,
+      "wingArea_m2": 125.0,
+      "wheelbase_m": 15.6
+    },
+    "weights": {
+      "mtow_kg": 79015,
+      "mlw_kg": 66360,
+      "mzfw_kg": 62710,
+      "oew_kg": 41600,
+      "maxFuel_kg": 26020,
+      "maxPayload_kg": 21110
+    },
+    "engines": [
+      {
+        "model": "CFM56-7B26",
+        "manufacturer": "CFM International",
+        "type": "TURBOFAN",
+        "thrust_kN": 117.0,
+        "thrust_lbf": 26300,
+        "bypassRatio": 5.5,
+        "count": 2
+      }
+    ],
+    "performance": {
+      "maxRange_km": 5350,
+      "maxRange_nm": 2889,
+      "ceiling_ft": 41000,
+      "ceiling_m": 12500,
+      "cruiseMach": 0.78,
+      "cruiseSpeed_kts": 451,
+      "cruiseSpeed_kmh": 835,
+      "maxMach": 0.82,
+      "climbRate_fpm": 2600,
+      "takeoffDistance_m": 1550,
+      "landingDistance_m": 1350,
+      "fuelBurn_kgph": 2550,
+      "maxFuelFlow_kgph": 6500
+    },
+    "speeds": {
+      "vmo_kts": 340,
+      "mmo": 0.82,
+      "vs0_kts": 108,
+      "vs1_kts": 132,
+      "vne_kts": 360,
+      "vr_kts": 130,
+      "vapp_kts": 129
+    },
+    "capacity": {
+      "maxPax": 189,
+      "typicalTwoClass": 162,
+      "typicalThreeClass": 0,
+      "cockpitCrew": 2,
+      "cargoCapacity_m3": 45.1,
+      "cargoCapacity_kg": 7000
+    },
+    "wingtipDevice": "WINGLET",
+    "availableLiveryIds": [
+      "gol-b738-sfp",
+      "generic-b738-white",
+      "s7-b738"
+    ],
+    "features": [
+      "SFP Package",
+      "Short Field",
+      "Enhanced Lift",
+      "Carbon Brakes",
+      "ETOPS 180"
+    ],
+    "tags": [
+      "narrowbody",
+      "short-field",
+      "gol",
+      "high-lift",
+      "boeing"
+    ],
+    "model3dPath": "/assets/models/aircraft/b738/b738-003.gltf",
+    "thumbnailPath": "/assets/thumbnails/aircraft/b738-003.jpg",
+    "difficultyLevel": 5,
+    "popularityScore": 70,
+    "beginnerFriendly": false
+  },
+  {
+    "id": "b738-004",
+    "icaoCode": "B738",
+    "iataCode": "738",
+    "model": "Boeing 737-800 High Density",
+    "type": "B737-800 HD",
+    "manufacturer": "Boeing",
+    "family": "737 NG",
+    "name": "Boeing 737-800 189Y High Density",
+    "category": "NARROW_BODY",
+    "status": "ACTIVE",
+    "firstFlightYear": 2008,
+    "description": "Высокоплотная компоновка 189 кресел эконом, используется лоукостерами. Дополнительные аварийные выходы и оптимизация салона.",
+    "dimensions": {
+      "length_m": 39.5,
+      "wingspan_m": 35.8,
+      "height_m": 12.5,
+      "wingArea_m2": 125.0,
+      "wheelbase_m": 15.6
+    },
+    "weights": {
+      "mtow_kg": 79015,
+      "mlw_kg": 66360,
+      "mzfw_kg": 62710,
+      "oew_kg": 41100,
+      "maxFuel_kg": 26020,
+      "maxPayload_kg": 21610
+    },
+    "engines": [
+      {
+        "model": "CFM56-7B26E",
+        "manufacturer": "CFM International",
+        "type": "TURBOFAN",
+        "thrust_kN": 117.0,
+        "thrust_lbf": 26300,
+        "bypassRatio": 5.5,
+        "count": 2
+      }
+    ],
+    "performance": {
+      "maxRange_km": 5120,
+      "maxRange_nm": 2765,
+      "ceiling_ft": 41000,
+      "ceiling_m": 12500,
+      "cruiseMach": 0.785,
+      "cruiseSpeed_kts": 453,
+      "cruiseSpeed_kmh": 839,
+      "maxMach": 0.82,
+      "climbRate_fpm": 2400,
+      "takeoffDistance_m": 2400,
+      "landingDistance_m": 1850,
+      "fuelBurn_kgph": 2600,
+      "maxFuelFlow_kgph": 6500
+    },
+    "speeds": {
+      "vmo_kts": 340,
+      "mmo": 0.82,
+      "vs0_kts": 115,
+      "vs1_kts": 140,
+      "vne_kts": 360,
+      "vr_kts": 148,
+      "vapp_kts": 144
+    },
+    "capacity": {
+      "maxPax": 189,
+      "typicalTwoClass": 184,
+      "typicalThreeClass": 0,
+      "cockpitCrew": 2,
+      "cargoCapacity_m3": 44.0,
+      "cargoCapacity_kg": 6500
+    },
+    "wingtipDevice": "WINGLET",
+    "availableLiveryIds": [
+      "ryanair-b738",
+      "pobeda-b738-default",
+      "generic-b738-white"
+    ],
+    "features": [
+      "High Density Cabin",
+      "189Y",
+      "Extra Crew Seats",
+      "Boeing Sky Interior"
+    ],
+    "tags": [
+      "narrowbody",
+      "lowcost",
+      "189Y",
+      "high-density",
+      "boeing"
+    ],
+    "model3dPath": "/assets/models/aircraft/b738/b738-004.gltf",
+    "thumbnailPath": "/assets/thumbnails/aircraft/b738-004.jpg",
+    "difficultyLevel": 3,
+    "popularityScore": 90,
+    "beginnerFriendly": true
+  },
+  {
+    "id": "b738-005",
+    "icaoCode": "B738",
+    "iataCode": "738",
+    "model": "Boeing 737-800 BBJ2",
+    "type": "B737-800 BBJ2",
+    "manufacturer": "Boeing",
+    "family": "737 NG",
+    "name": "Boeing BBJ2 Business Jet",
+    "category": "NARROW_BODY",
+    "status": "ACTIVE",
+    "firstFlightYear": 1999,
+    "description": "Бизнес-джет версия на базе B737-800. Дополнительные баки, роскошный салон на 19-34 пассажира, дальность до 10000 км.",
+    "dimensions": {
+      "length_m": 39.5,
+      "wingspan_m": 35.8,
+      "height_m": 12.5,
+      "wingArea_m2": 125.0,
+      "wheelbase_m": 15.6
+    },
+    "weights": {
+      "mtow_kg": 79015,
+      "mlw_kg": 66360,
+      "mzfw_kg": 62710,
+      "oew_kg": 42500,
+      "maxFuel_kg": 32000,
+      "maxPayload_kg": 18000
+    },
+    "engines": [
+      {
+        "model": "CFM56-7B27",
+        "manufacturer": "CFM International",
+        "type": "TURBOFAN",
+        "thrust_kN": 121.4,
+        "thrust_lbf": 27300,
+        "bypassRatio": 5.5,
+        "count": 2
+      }
+    ],
+    "performance": {
+      "maxRange_km": 10025,
+      "maxRange_nm": 5413,
+      "ceiling_ft": 41000,
+      "ceiling_m": 12500,
+      "cruiseMach": 0.785,
+      "cruiseSpeed_kts": 453,
+      "cruiseSpeed_kmh": 839,
+      "maxMach": 0.82,
+      "climbRate_fpm": 2800,
+      "takeoffDistance_m": 2100,
+      "landingDistance_m": 1650,
+      "fuelBurn_kgph": 2300,
+      "maxFuelFlow_kgph": 6500
+    },
+    "speeds": {
+      "vmo_kts": 340,
+      "mmo": 0.82,
+      "vs0_kts": 105,
+      "vs1_kts": 125,
+      "vne_kts": 360,
+      "vr_kts": 135,
+      "vapp_kts": 132
+    },
+    "capacity": {
+      "maxPax": 34,
+      "typicalTwoClass": 19,
+      "typicalThreeClass": 19,
+      "cockpitCrew": 2,
+      "cargoCapacity_m3": 20.0,
+      "cargoCapacity_kg": 3000
+    },
+    "wingtipDevice": "WINGLET",
+    "availableLiveryIds": [
+      "bbj2-private-white",
+      "generic-b738-white"
+    ],
+    "features": [
+      "BBJ",
+      "VIP Cabin",
+      "Aux Fuel Tanks",
+      "Long Range",
+      "Luxury Interior"
+    ],
+    "tags": [
+      "business-jet",
+      "vip",
+      "long-range",
+      "bbj",
+      "premium"
+    ],
+    "model3dPath": "/assets/models/aircraft/b738/b738-005.gltf",
+    "thumbnailPath": "/assets/thumbnails/aircraft/b738-005.jpg",
+    "difficultyLevel": 4,
+    "popularityScore": 60,
+    "beginnerFriendly": false
+  },
+  {
+    "id": "a320-001",
+    "icaoCode": "A320",
+    "iataCode": "320",
+    "model": "Airbus A320-214",
+    "type": "A320-214",
+    "manufacturer": "Airbus",
+    "family": "A320ceo",
+    "name": "Airbus A320-214 CFM56",
+    "category": "NARROW_BODY",
+    "status": "ACTIVE",
+    "firstFlightYear": 1990,
+    "description": "Классический A320ceo с двигателями CFM56-5B4. Бестселлер Airbus, основа среднемагистрального флота мира.",
+    "dimensions": {
+      "length_m": 37.57,
+      "wingspan_m": 34.1,
+      "height_m": 11.76,
+      "wingArea_m2": 122.6,
+      "wheelbase_m": 12.64
+    },
+    "weights": {
+      "mtow_kg": 78000,
+      "mlw_kg": 66000,
+      "mzfw_kg": 62500,
+      "oew_kg": 42600,
+      "maxFuel_kg": 18728,
+      "maxPayload_kg": 19900
+    },
+    "engines": [
+      {
+        "model": "CFM56-5B4/P",
+        "manufacturer": "CFM International",
+        "type": "TURBOFAN",
+        "thrust_kN": 120.0,
+        "thrust_lbf": 27000,
+        "bypassRatio": 5.5,
+        "count": 2
+      }
+    ],
+    "performance": {
+      "maxRange_km": 6100,
+      "maxRange_nm": 3294,
+      "ceiling_ft": 39800,
+      "ceiling_m": 12131,
+      "cruiseMach": 0.78,
+      "cruiseSpeed_kts": 447,
+      "cruiseSpeed_kmh": 828,
+      "maxMach": 0.82,
+      "climbRate_fpm": 2400,
+      "takeoffDistance_m": 2090,
+      "landingDistance_m": 1480,
+      "fuelBurn_kgph": 2400,
+      "maxFuelFlow_kgph": 6200
+    },
+    "speeds": {
+      "vmo_kts": 350,
+      "mmo": 0.82,
+      "vs0_kts": 110,
+      "vs1_kts": 135,
+      "vne_kts": 365,
+      "vr_kts": 140,
+      "vapp_kts": 135
+    },
+    "capacity": {
+      "maxPax": 180,
+      "typicalTwoClass": 150,
+      "typicalThreeClass": 0,
+      "cockpitCrew": 2,
+      "cargoCapacity_m3": 37.4,
+      "cargoCapacity_kg": 7200
+    },
+    "wingtipDevice": "WINGLET",
+    "availableLiveryIds": [
+      "aeroflot-a320",
+      "s7-a320",
+      "lufthansa-a320",
+      "airfrance-a320",
+      "generic-a320-white"
+    ],
+    "features": [
+      "Fly-by-Wire",
+      "EFIS",
+      "ECAM",
+      "Wingtip Fences",
+      "ETOPS 120"
+    ],
+    "tags": [
+      "narrowbody",
+      "airbus",
+      "fly-by-wire",
+      "popular",
+      "a320ceo"
+    ],
+    "model3dPath": "/assets/models/aircraft/a320/a320-001.gltf",
+    "thumbnailPath": "/assets/thumbnails/aircraft/a320-001.jpg",
+    "difficultyLevel": 2,
+    "popularityScore": 92,
+    "beginnerFriendly": true
+  },
+  {
+    "id": "a320-002",
+    "icaoCode": "A320",
+    "iataCode": "320",
+    "model": "Airbus A320-232",
+    "type": "A320-232",
+    "manufacturer": "Airbus",
+    "family": "A320ceo",
+    "name": "Airbus A320-232 IAE V2500",
+    "category": "NARROW_BODY",
+    "status": "ACTIVE",
+    "firstFlightYear": 1993,
+    "description": "Вариант A320 с двигателями IAE V2500-A5. Отличается характерным звучанием и немного лучшей топливной эффективностью.",
+    "dimensions": {
+      "length_m": 37.57,
+      "wingspan_m": 34.1,
+      "height_m": 11.76,
+      "wingArea_m2": 122.6,
+      "wheelbase_m": 12.64
+    },
+    "weights": {
+      "mtow_kg": 77000,
+      "mlw_kg": 66000,
+      "mzfw_kg": 62500,
+      "oew_kg": 42650,
+      "maxFuel_kg": 18728,
+      "maxPayload_kg": 19850
+    },
+    "engines": [
+      {
+        "model": "V2527-A5",
+        "manufacturer": "IAE",
+        "type": "TURBOFAN",
+        "thrust_kN": 120.0,
+        "thrust_lbf": 27000,
+        "bypassRatio": 4.9,
+        "count": 2
+      }
+    ],
+    "performance": {
+      "maxRange_km": 5850,
+      "maxRange_nm": 3159,
+      "ceiling_ft": 39800,
+      "ceiling_m": 12131,
+      "cruiseMach": 0.78,
+      "cruiseSpeed_kts": 447,
+      "cruiseSpeed_kmh": 828,
+      "maxMach": 0.82,
+      "climbRate_fpm": 2350,
+      "takeoffDistance_m": 2130,
+      "landingDistance_m": 1480,
+      "fuelBurn_kgph": 2350,
+      "maxFuelFlow_kgph": 6200
+    },
+    "speeds": {
+      "vmo_kts": 350,
+      "mmo": 0.82,
+      "vs0_kts": 110,
+      "vs1_kts": 135,
+      "vne_kts": 365,
+      "vr_kts": 141,
+      "vapp_kts": 136
+    },
+    "capacity": {
+      "maxPax": 180,
+      "typicalTwoClass": 150,
+      "typicalThreeClass": 0,
+      "cockpitCrew": 2,
+      "cargoCapacity_m3": 37.4,
+      "cargoCapacity_kg": 7200
+    },
+    "wingtipDevice": "WINGLET",
+    "availableLiveryIds": [
+      "wizzair-a320-iae",
+      "ural-a320-iae",
+      "generic-a320-white",
+      "british-a320"
+    ],
+    "features": [
+      "IAE V2500",
+      "Fly-by-Wire",
+      "Quiet Engines",
+      "ETOPS 120"
+    ],
+    "tags": [
+      "narrowbody",
+      "iae",
+      "v2500",
+      "airbus",
+      "efficient"
+    ],
+    "model3dPath": "/assets/models/aircraft/a320/a320-002.gltf",
+    "thumbnailPath": "/assets/thumbnails/aircraft/a320-002.jpg",
+    "difficultyLevel": 3,
+    "popularityScore": 85,
+    "beginnerFriendly": true
+  },
+  {
+    "id": "a320-003",
+    "icaoCode": "A320",
+    "iataCode": "320",
+    "model": "Airbus A320-214SL",
+    "type": "A320-214SL",
+    "manufacturer": "Airbus",
+    "family": "A320ceo",
+    "name": "Airbus A320-214SL Sharklets",
+    "category": "NARROW_BODY",
+    "status": "ACTIVE",
+    "firstFlightYear": 2012,
+    "description": "A320ceo с законцовками Sharklets 2.4м. Экономия топлива 3.5%, увеличенная дальность и улучшенный climb performance.",
+    "dimensions": {
+      "length_m": 37.57,
+      "wingspan_m": 35.8,
+      "height_m": 11.76,
+      "wingArea_m2": 122.6,
+      "wheelbase_m": 12.64
+    },
+    "weights": {
+      "mtow_kg": 78000,
+      "mlw_kg": 66000,
+      "mzfw_kg": 62500,
+      "oew_kg": 42800,
+      "maxFuel_kg": 18728,
+      "maxPayload_kg": 19700
+    },
+    "engines": [
+      {
+        "model": "CFM56-5B4/3",
+        "manufacturer": "CFM International",
+        "type": "TURBOFAN",
+        "thrust_kN": 120.0,
+        "thrust_lbf": 27000,
+        "bypassRatio": 5.5,
+        "count": 2
+      }
+    ],
+    "performance": {
+      "maxRange_km": 6350,
+      "maxRange_nm": 3429,
+      "ceiling_ft": 39800,
+      "ceiling_m": 12131,
+      "cruiseMach": 0.78,
+      "cruiseSpeed_kts": 448,
+      "cruiseSpeed_kmh": 830,
+      "maxMach": 0.82,
+      "climbRate_fpm": 2500,
+      "takeoffDistance_m": 1980,
+      "landingDistance_m": 1480,
+      "fuelBurn_kgph": 2320,
+      "maxFuelFlow_kgph": 6200
+    },
+    "speeds": {
+      "vmo_kts": 350,
+      "mmo": 0.82,
+      "vs0_kts": 109,
+      "vs1_kts": 134,
+      "vne_kts": 365,
+      "vr_kts": 138,
+      "vapp_kts": 133
+    },
+    "capacity": {
+      "maxPax": 180,
+      "typicalTwoClass": 150,
+      "typicalThreeClass": 0,
+      "cockpitCrew": 2,
+      "cargoCapacity_m3": 37.4,
+      "cargoCapacity_kg": 7200
+    },
+    "wingtipDevice": "SHARKLET",
+    "availableLiveryIds": [
+      "aeroflot-a320-sharklets",
+      "s7-a320",
+      "lufthansa-a320",
+      "aeroflot-a320",
+      "generic-a320-white"
+    ],
+    "features": [
+      "Sharklets",
+      "Fuel Saving",
+      "New Cabin",
+      "LED Lighting",
+      "Fly-by-Wire"
+    ],
+    "tags": [
+      "narrowbody",
+      "sharklets",
+      "modern",
+      "efficient",
+      "airbus"
+    ],
+    "model3dPath": "/assets/models/aircraft/a320/a320-003.gltf",
+    "thumbnailPath": "/assets/thumbnails/aircraft/a320-003.jpg",
+    "difficultyLevel": 2,
+    "popularityScore": 89,
+    "beginnerFriendly": true
+  },
+  {
+    "id": "a320-004",
+    "icaoCode": "A320",
+    "iataCode": "320",
+    "model": "Airbus A320-251N",
+    "type": "A320-251N",
+    "manufacturer": "Airbus",
+    "family": "A320neo",
+    "name": "Airbus A320-251N NEO LEAP",
+    "category": "NARROW_BODY",
+    "status": "ACTIVE",
+    "firstFlightYear": 2016,
+    "description": "A320neo с двигателями LEAP-1A26. 15% экономии топлива против ceo, сниженный шум, дальность до 6400 км.",
+    "dimensions": {
+      "length_m": 37.57,
+      "wingspan_m": 35.8,
+      "height_m": 11.76,
+      "wingArea_m2": 122.6,
+      "wheelbase_m": 12.64
+    },
+    "weights": {
+      "mtow_kg": 79000,
+      "mlw_kg": 67400,
+      "mzfw_kg": 64300,
+      "oew_kg": 44200,
+      "maxFuel_kg": 18728,
+      "maxPayload_kg": 20100
+    },
+    "engines": [
+      {
+        "model": "LEAP-1A26",
+        "manufacturer": "CFM International",
+        "type": "TURBOFAN",
+        "thrust_kN": 120.6,
+        "thrust_lbf": 27120,
+        "bypassRatio": 11.0,
+        "count": 2
+      }
+    ],
+    "performance": {
+      "maxRange_km": 6400,
+      "maxRange_nm": 3456,
+      "ceiling_ft": 39800,
+      "ceiling_m": 12131,
+      "cruiseMach": 0.78,
+      "cruiseSpeed_kts": 453,
+      "cruiseSpeed_kmh": 839,
+      "maxMach": 0.82,
+      "climbRate_fpm": 2650,
+      "takeoffDistance_m": 1900,
+      "landingDistance_m": 1450,
+      "fuelBurn_kgph": 2050,
+      "maxFuelFlow_kgph": 5800
+    },
+    "speeds": {
+      "vmo_kts": 350,
+      "mmo": 0.82,
+      "vs0_kts": 108,
+      "vs1_kts": 133,
+      "vne_kts": 365,
+      "vr_kts": 136,
+      "vapp_kts": 132
+    },
+    "capacity": {
+      "maxPax": 194,
+      "typicalTwoClass": 165,
+      "typicalThreeClass": 0,
+      "cockpitCrew": 2,
+      "cargoCapacity_m3": 37.4,
+      "cargoCapacity_kg": 7200
+    },
+    "wingtipDevice": "SHARKLET",
+    "availableLiveryIds": [
+      "s7-a320-neo",
+      "aeroflot-a320-neo",
+      "ural-a320-neo",
+      "generic-a320-white"
+    ],
+    "features": [
+      "NEO",
+      "LEAP Engines",
+      "Ultra Efficient",
+      "Quiet",
+      "New FMS",
+      "Fly-by-Wire Gen2"
+    ],
+    "tags": [
+      "narrowbody",
+      "neo",
+      "leap",
+      "new-generation",
+      "efficient"
+    ],
+    "model3dPath": "/assets/models/aircraft/a320/a320-004.gltf",
+    "thumbnailPath": "/assets/thumbnails/aircraft/a320-004.jpg",
+    "difficultyLevel": 3,
+    "popularityScore": 94,
+    "beginnerFriendly": false
+  },
+  {
+    "id": "a320-005",
+    "icaoCode": "A320",
+    "iataCode": "320",
+    "model": "Airbus A320-214 High Density",
+    "type": "A320-214HD",
+    "manufacturer": "Airbus",
+    "family": "A320ceo",
+    "name": "Airbus A320 High Density 180Y",
+    "category": "NARROW_BODY",
+    "status": "ACTIVE",
+    "firstFlightYear": 2005,
+    "description": "Версия Space-Flex с 180 креслами эконом. Увеличенные багажные полки, оптимизированный туалет для максимальной вместимости.",
+    "dimensions": {
+      "length_m": 37.57,
+      "wingspan_m": 34.1,
+      "height_m": 11.76,
+      "wingArea_m2": 122.6,
+      "wheelbase_m": 12.64
+    },
+    "weights": {
+      "mtow_kg": 77000,
+      "mlw_kg": 66000,
+      "mzfw_kg": 62500,
+      "oew_kg": 42300,
+      "maxFuel_kg": 18728,
+      "maxPayload_kg": 20200
+    },
+    "engines": [
+      {
+        "model": "CFM56-5B6",
+        "manufacturer": "CFM International",
+        "type": "TURBOFAN",
+        "thrust_kN": 104.5,
+        "thrust_lbf": 23500,
+        "bypassRatio": 5.5,
+        "count": 2
+      }
+    ],
+    "performance": {
+      "maxRange_km": 5600,
+      "maxRange_nm": 3024,
+      "ceiling_ft": 39800,
+      "ceiling_m": 12131,
+      "cruiseMach": 0.78,
+      "cruiseSpeed_kts": 447,
+      "cruiseSpeed_kmh": 828,
+      "maxMach": 0.82,
+      "climbRate_fpm": 2350,
+      "takeoffDistance_m": 2180,
+      "landingDistance_m": 1500,
+      "fuelBurn_kgph": 2450,
+      "maxFuelFlow_kgph": 6200
+    },
+    "speeds": {
+      "vmo_kts": 350,
+      "mmo": 0.82,
+      "vs0_kts": 112,
+      "vs1_kts": 137,
+      "vne_kts": 365,
+      "vr_kts": 143,
+      "vapp_kts": 138
+    },
+    "capacity": {
+      "maxPax": 180,
+      "typicalTwoClass": 180,
+      "typicalThreeClass": 0,
+      "cockpitCrew": 2,
+      "cargoCapacity_m3": 36.0,
+      "cargoCapacity_kg": 6800
+    },
+    "wingtipDevice": "WINGLET",
+    "availableLiveryIds": [
+      "easyjet-a320-hd",
+      "wizzair-a320-iae",
+      "generic-a320-white",
+      "pobeda-a320f"
+    ],
+    "features": [
+      "High Density",
+      "Space-Flex",
+      "180Y",
+      "Extra Overhead Bins"
+    ],
+    "tags": [
+      "narrowbody",
+      "180Y",
+      "lowcost",
+      "high-density",
+      "airbus"
+    ],
+    "model3dPath": "/assets/models/aircraft/a320/a320-005.gltf",
+    "thumbnailPath": "/assets/thumbnails/aircraft/a320-005.jpg",
+    "difficultyLevel": 2,
+    "popularityScore": 80,
+    "beginnerFriendly": true
+  },
+  {
+    "id": "b77w-001",
+    "icaoCode": "B77W",
+    "iataCode": "77W",
+    "model": "Boeing 777-300ER",
+    "type": "B777-300ER",
+    "manufacturer": "Boeing",
+    "family": "777",
+    "name": "Boeing 777-300ER Standard",
+    "category": "WIDE_BODY",
+    "status": "ACTIVE",
+    "firstFlightYear": 2003,
+    "description": "Флагман дальнемагистрального флота Boeing. 777-300ER с двигателями GE90-115B - самые мощные авиадвигатели в мире.",
+    "dimensions": {
+      "length_m": 73.9,
+      "wingspan_m": 64.8,
+      "height_m": 18.5,
+      "wingArea_m2": 436.8,
+      "wheelbase_m": 31.2
+    },
+    "weights": {
+      "mtow_kg": 351534,
+      "mlw_kg": 251290,
+      "mzfw_kg": 299370,
+      "oew_kg": 167800,
+      "maxFuel_kg": 145538,
+      "maxPayload_kg": 69700
+    },
+    "engines": [
+      {
+        "model": "GE90-115B",
+        "manufacturer": "General Electric",
+        "type": "TURBOFAN",
+        "thrust_kN": 513.0,
+        "thrust_lbf": 115300,
+        "bypassRatio": 9.0,
+        "count": 2
+      }
+    ],
+    "performance": {
+      "maxRange_km": 13649,
+      "maxRange_nm": 7370,
+      "ceiling_ft": 43100,
+      "ceiling_m": 13137,
+      "cruiseMach": 0.84,
+      "cruiseSpeed_kts": 490,
+      "cruiseSpeed_kmh": 907,
+      "maxMach": 0.89,
+      "climbRate_fpm": 2200,
+      "takeoffDistance_m": 3000,
+      "landingDistance_m": 2000,
+      "fuelBurn_kgph": 7600,
+      "maxFuelFlow_kgph": 18000
+    },
+    "speeds": {
+      "vmo_kts": 330,
+      "mmo": 0.89,
+      "vs0_kts": 135,
+      "vs1_kts": 165,
+      "vne_kts": 350,
+      "vr_kts": 180,
+      "vapp_kts": 156
+    },
+    "capacity": {
+      "maxPax": 550,
+      "typicalTwoClass": 396,
+      "typicalThreeClass": 365,
+      "cockpitCrew": 2,
+      "cargoCapacity_m3": 200.7,
+      "cargoCapacity_kg": 25000
+    },
+    "wingtipDevice": "RAKED_WINGTIP",
+    "availableLiveryIds": [
+      "emirates-b77w",
+      "aeroflot-b77w",
+      "qatar-b77w",
+      "singapore-b77w",
+      "generic-b77w-white"
+    ],
+    "features": [
+      "GE90-115B",
+      "Raked Wingtips",
+      "ETOPS 330",
+      "FBW",
+      "EFB",
+      "Long Range"
+    ],
+    "tags": [
+      "widebody",
+      "long-haul",
+      "powerful",
+      "flagship",
+      "boeing",
+      "777"
+    ],
+    "model3dPath": "/assets/models/aircraft/b77w/b77w-001.gltf",
+    "thumbnailPath": "/assets/thumbnails/aircraft/b77w-001.jpg",
+    "difficultyLevel": 7,
+    "popularityScore": 96,
+    "beginnerFriendly": false
+  },
+  {
+    "id": "b77w-002",
+    "icaoCode": "B77W",
+    "iataCode": "77W",
+    "model": "Boeing 777-300ER HGW",
+    "type": "B777-300ER HGW",
+    "manufacturer": "Boeing",
+    "family": "777",
+    "name": "Boeing 777-300ER High Gross Weight",
+    "category": "WIDE_BODY",
+    "status": "ACTIVE",
+    "firstFlightYear": 2010,
+    "description": "Высоковесовая версия с MTOW 352т. Увеличенная дальность, усиленное шасси и крыло, оптимальна для сверхдальних маршрутов.",
+    "dimensions": {
+      "length_m": 73.9,
+      "wingspan_m": 64.8,
+      "height_m": 18.5,
+      "wingArea_m2": 436.8,
+      "wheelbase_m": 31.2
+    },
+    "weights": {
+      "mtow_kg": 352440,
+      "mlw_kg": 251290,
+      "mzfw_kg": 300300,
+      "oew_kg": 168800,
+      "maxFuel_kg": 145538,
+      "maxPayload_kg": 69800
+    },
+    "engines": [
+      {
+        "model": "GE90-115B1",
+        "manufacturer": "General Electric",
+        "type": "TURBOFAN",
+        "thrust_kN": 514.0,
+        "thrust_lbf": 115540,
+        "bypassRatio": 9.0,
+        "count": 2
+      }
+    ],
+    "performance": {
+      "maxRange_km": 13890,
+      "maxRange_nm": 7500,
+      "ceiling_ft": 43100,
+      "ceiling_m": 13137,
+      "cruiseMach": 0.84,
+      "cruiseSpeed_kts": 492,
+      "cruiseSpeed_kmh": 911,
+      "maxMach": 0.89,
+      "climbRate_fpm": 2150,
+      "takeoffDistance_m": 3200,
+      "landingDistance_m": 2000,
+      "fuelBurn_kgph": 7700,
+      "maxFuelFlow_kgph": 18200
+    },
+    "speeds": {
+      "vmo_kts": 330,
+      "mmo": 0.89,
+      "vs0_kts": 136,
+      "vs1_kts": 166,
+      "vne_kts": 350,
+      "vr_kts": 182,
+      "vapp_kts": 158
+    },
+    "capacity": {
+      "maxPax": 550,
+      "typicalTwoClass": 396,
+      "typicalThreeClass": 365,
+      "cockpitCrew": 2,
+      "cargoCapacity_m3": 200.7,
+      "cargoCapacity_kg": 25000
+    },
+    "wingtipDevice": "RAKED_WINGTIP",
+    "availableLiveryIds": [
+      "emirates-b77w",
+      "qatar-b77w-oneworld",
+      "singapore-b77w",
+      "generic-b77w-white"
+    ],
+    "features": [
+      "HGW",
+      "Ultra Long Range",
+      "Reinforced Gear",
+      "ETOPS 330",
+      "Enhanced Payload"
+    ],
+    "tags": [
+      "widebody",
+      "long-haul",
+      "ulr",
+      "heavy",
+      "boeing"
+    ],
+    "model3dPath": "/assets/models/aircraft/b77w/b77w-002.gltf",
+    "thumbnailPath": "/assets/thumbnails/aircraft/b77w-002.jpg",
+    "difficultyLevel": 8,
+    "popularityScore": 85,
+    "beginnerFriendly": false
+  },
+  {
+    "id": "b77w-003",
+    "icaoCode": "B77W",
+    "iataCode": "77W",
+    "model": "Boeing 777-300ER Three-Class",
+    "type": "B777-300ER",
+    "manufacturer": "Boeing",
+    "family": "777",
+    "name": "Boeing 777-300ER Three-Class Cabin",
+    "category": "WIDE_BODY",
+    "status": "ACTIVE",
+    "firstFlightYear": 2004,
+    "description": "Премиальная трехклассная компоновка: 8 First Suites, 42 Business, 304 Economy. Флагман для люксовых перевозчиков.",
+    "dimensions": {
+      "length_m": 73.9,
+      "wingspan_m": 64.8,
+      "height_m": 18.5,
+      "wingArea_m2": 436.8,
+      "wheelbase_m": 31.2
+    },
+    "weights": {
+      "mtow_kg": 351534,
+      "mlw_kg": 251290,
+      "mzfw_kg": 299370,
+      "oew_kg": 169500,
+      "maxFuel_kg": 145538,
+      "maxPayload_kg": 68000
+    },
+    "engines": [
+      {
+        "model": "GE90-115B",
+        "manufacturer": "General Electric",
+        "type": "TURBOFAN",
+        "thrust_kN": 513.0,
+        "thrust_lbf": 115300,
+        "bypassRatio": 9.0,
+        "count": 2
+      }
+    ],
+    "performance": {
+      "maxRange_km": 13320,
+      "maxRange_nm": 7192,
+      "ceiling_ft": 43100,
+      "ceiling_m": 13137,
+      "cruiseMach": 0.84,
+      "cruiseSpeed_kts": 490,
+      "cruiseSpeed_kmh": 907,
+      "maxMach": 0.89,
+      "climbRate_fpm": 2100,
+      "takeoffDistance_m": 3050,
+      "landingDistance_m": 2030,
+      "fuelBurn_kgph": 7500,
+      "maxFuelFlow_kgph": 18000
+    },
+    "speeds": {
+      "vmo_kts": 330,
+      "mmo": 0.89,
+      "vs0_kts": 135,
+      "vs1_kts": 165,
+      "vne_kts": 350,
+      "vr_kts": 180,
+      "vapp_kts": 155
+    },
+    "capacity": {
+      "maxPax": 354,
+      "typicalTwoClass": 365,
+      "typicalThreeClass": 354,
+      "cockpitCrew": 2,
+      "cargoCapacity_m3": 200.7,
+      "cargoCapacity_kg": 24000
+    },
+    "wingtipDevice": "RAKED_WINGTIP",
+    "availableLiveryIds": [
+      "emirates-b77w",
+      "singapore-b77w",
+      "cathay-b77w",
+      "generic-b77w-white"
+    ],
+    "features": [
+      "First Class Suites",
+      "Premium Cabin",
+      "Bar",
+      "Shower Optional",
+      "ETOPS 330"
+    ],
+    "tags": [
+      "widebody",
+      "luxury",
+      "three-class",
+      "first-class",
+      "flagship"
+    ],
+    "model3dPath": "/assets/models/aircraft/b77w/b77w-003.gltf",
+    "thumbnailPath": "/assets/thumbnails/aircraft/b77w-003.jpg",
+    "difficultyLevel": 7,
+    "popularityScore": 91,
+    "beginnerFriendly": false
+  },
+  {
+    "id": "b77w-004",
+    "icaoCode": "B77W",
+    "iataCode": "77W",
+    "model": "Boeing 777-300ER Cabin Flex",
+    "type": "B777-300ER CF",
+    "manufacturer": "Boeing",
+    "family": "777",
+    "name": "Boeing 777-300ER Cabin Flex Concept",
+    "category": "WIDE_BODY",
+    "status": "ACTIVE",
+    "firstFlightYear": 2015,
+    "description": "Концепт с гибким салоном: модульные перегородки, опция 10 кресел в ряд эконом (3-4-3). Максимальная эффективность для чартеров.",
+    "dimensions": {
+      "length_m": 73.9,
+      "wingspan_m": 64.8,
+      "height_m": 18.5,
+      "wingArea_m2": 436.8,
+      "wheelbase_m": 31.2
+    },
+    "weights": {
+      "mtow_kg": 351534,
+      "mlw_kg": 251290,
+      "mzfw_kg": 299370,
+      "oew_kg": 167000,
+      "maxFuel_kg": 145538,
+      "maxPayload_kg": 70500
+    },
+    "engines": [
+      {
+        "model": "GE90-115B",
+        "manufacturer": "General Electric",
+        "type": "TURBOFAN",
+        "thrust_kN": 513.0,
+        "thrust_lbf": 115300,
+        "bypassRatio": 9.0,
+        "count": 2
+      }
+    ],
+    "performance": {
+      "maxRange_km": 13450,
+      "maxRange_nm": 7262,
+      "ceiling_ft": 43100,
+      "ceiling_m": 13137,
+      "cruiseMach": 0.84,
+      "cruiseSpeed_kts": 490,
+      "cruiseSpeed_kmh": 907,
+      "maxMach": 0.89,
+      "climbRate_fpm": 2250,
+      "takeoffDistance_m": 2950,
+      "landingDistance_m": 1950,
+      "fuelBurn_kgph": 7650,
+      "maxFuelFlow_kgph": 18000
+    },
+    "speeds": {
+      "vmo_kts": 330,
+      "mmo": 0.89,
+      "vs0_kts": 134,
+      "vs1_kts": 164,
+      "vne_kts": 350,
+      "vr_kts": 178,
+      "vapp_kts": 154
+    },
+    "capacity": {
+      "maxPax": 550,
+      "typicalTwoClass": 451,
+      "typicalThreeClass": 365,
+      "cockpitCrew": 2,
+      "cargoCapacity_m3": 200.7,
+      "cargoCapacity_kg": 26000
+    },
+    "wingtipDevice": "RAKED_WINGTIP",
+    "availableLiveryIds": [
+      "emirates-b77w",
+      "qatar-b77w",
+      "generic-b77w-white",
+      "aeroflot-b77w"
+    ],
+    "features": [
+      "Cabin Flex",
+      "10-abreast",
+      "Modular",
+      "High Efficiency"
+    ],
+    "tags": [
+      "widebody",
+      "flex",
+      "10-abreast",
+      "charter",
+      "efficient"
+    ],
+    "model3dPath": "/assets/models/aircraft/b77w/b77w-004.gltf",
+    "thumbnailPath": "/assets/thumbnails/aircraft/b77w-004.jpg",
+    "difficultyLevel": 7,
+    "popularityScore": 78,
+    "beginnerFriendly": false
+  },
+  {
+    "id": "b77w-005",
+    "icaoCode": "B77W",
+    "iataCode": "77W",
+    "model": "Boeing 777-300ERSF",
+    "type": "B777-300ERSF",
+    "manufacturer": "Boeing",
+    "family": "777",
+    "name": "Boeing 777-300ER Freighter Conversion",
+    "category": "WIDE_BODY",
+    "status": "ACTIVE",
+    "firstFlightYear": 2020,
+    "description": "Конверсия в грузовой вариант BCF: большая грузовая дверь, усиленный пол, до 99 тонн груза. Дальность с максимальной нагрузкой 4000nm.",
+    "dimensions": {
+      "length_m": 73.9,
+      "wingspan_m": 64.8,
+      "height_m": 18.5,
+      "wingArea_m2": 436.8,
+      "wheelbase_m": 31.2
+    },
+    "weights": {
+      "mtow_kg": 351534,
+      "mlw_kg": 251290,
+      "mzfw_kg": 309400,
+      "oew_kg": 158500,
+      "maxFuel_kg": 145538,
+      "maxPayload_kg": 99000
+    },
+    "engines": [
+      {
+        "model": "GE90-115B",
+        "manufacturer": "General Electric",
+        "type": "TURBOFAN",
+        "thrust_kN": 513.0,
+        "thrust_lbf": 115300,
+        "bypassRatio": 9.0,
+        "count": 2
+      }
+    ],
+    "performance": {
+      "maxRange_km": 9000,
+      "maxRange_nm": 4860,
+      "ceiling_ft": 43100,
+      "ceiling_m": 13137,
+      "cruiseMach": 0.84,
+      "cruiseSpeed_kts": 490,
+      "cruiseSpeed_kmh": 907,
+      "maxMach": 0.89,
+      "climbRate_fpm": 2000,
+      "takeoffDistance_m": 3300,
+      "landingDistance_m": 2100,
+      "fuelBurn_kgph": 7800,
+      "maxFuelFlow_kgph": 18500
+    },
+    "speeds": {
+      "vmo_kts": 330,
+      "mmo": 0.89,
+      "vs0_kts": 140,
+      "vs1_kts": 170,
+      "vne_kts": 350,
+      "vr_kts": 185,
+      "vapp_kts": 162
+    },
+    "capacity": {
+      "maxPax": 0,
+      "typicalTwoClass": 0,
+      "typicalThreeClass": 0,
+      "cockpitCrew": 2,
+      "cargoCapacity_m3": 600.0,
+      "cargoCapacity_kg": 99000
+    },
+    "wingtipDevice": "RAKED_WINGTIP",
+    "availableLiveryIds": [
+      "aerologic-b77w-cargo",
+      "generic-b77w-cargo-white"
+    ],
+    "features": [
+      "Freighter",
+      "Cargo Door",
+      "Main Deck Cargo",
+      "BCF",
+      "Reinforced Floor"
+    ],
+    "tags": [
+      "cargo",
+      "freighter",
+      "bcf",
+      "heavy",
+      "widebody"
+    ],
+    "model3dPath": "/assets/models/aircraft/b77w/b77w-005.gltf",
+    "thumbnailPath": "/assets/thumbnails/aircraft/b77w-005.jpg",
+    "difficultyLevel": 8,
+    "popularityScore": 65,
+    "beginnerFriendly": false
+  },
+  {
+    "id": "a388-001",
+    "icaoCode": "A388",
+    "iataCode": "388",
+    "model": "Airbus A380-841",
+    "type": "A380-841",
+    "manufacturer": "Airbus",
+    "family": "A380",
+    "name": "Airbus A380-841 Trent 970 Standard",
+    "category": "SUPER_HEAVY",
+    "status": "ACTIVE",
+    "firstFlightYear": 2005,
+    "description": "Базовый A380-841 с Trent 970. Двухпалубный гигант, вместимость до 853 человек, символ инженерного превосходства Airbus.",
+    "dimensions": {
+      "length_m": 72.72,
+      "wingspan_m": 79.75,
+      "height_m": 24.09,
+      "wingArea_m2": 845.0,
+      "wheelbase_m": 31.36
+    },
+    "weights": {
+      "mtow_kg": 560000,
+      "mlw_kg": 386000,
+      "mzfw_kg": 361000,
+      "oew_kg": 276800,
+      "maxFuel_kg": 253760,
+      "maxPayload_kg": 84200
+    },
+    "engines": [
+      {
+        "model": "Trent 970-84",
+        "manufacturer": "Rolls-Royce",
+        "type": "TURBOFAN",
+        "thrust_kN": 311.0,
+        "thrust_lbf": 70000,
+        "bypassRatio": 8.7,
+        "count": 4
+      }
+    ],
+    "performance": {
+      "maxRange_km": 14800,
+      "maxRange_nm": 7990,
+      "ceiling_ft": 43000,
+      "ceiling_m": 13106,
+      "cruiseMach": 0.85,
+      "cruiseSpeed_kts": 490,
+      "cruiseSpeed_kmh": 903,
+      "maxMach": 0.89,
+      "climbRate_fpm": 1600,
+      "takeoffDistance_m": 2900,
+      "landingDistance_m": 2050,
+      "fuelBurn_kgph": 11500,
+      "maxFuelFlow_kgph": 28000
+    },
+    "speeds": {
+      "vmo_kts": 340,
+      "mmo": 0.89,
+      "vs0_kts": 130,
+      "vs1_kts": 165,
+      "vne_kts": 360,
+      "vr_kts": 165,
+      "vapp_kts": 140
+    },
+    "capacity": {
+      "maxPax": 853,
+      "typicalTwoClass": 644,
+      "typicalThreeClass": 555,
+      "cockpitCrew": 2,
+      "cargoCapacity_m3": 184.4,
+      "cargoCapacity_kg": 20000
+    },
+    "wingtipDevice": "NONE",
+    "availableLiveryIds": [
+      "emirates-a388",
+      "singapore-a388",
+      "lufthansa-a388-old",
+      "generic-a388-white"
+    ],
+    "features": [
+      "Double Deck",
+      "Trent 970",
+      "Fly-by-Wire",
+      "Massive",
+      "Quiet Cabin"
+    ],
+    "tags": [
+      "super-heavy",
+      "double-deck",
+      "quadjet",
+      "giant",
+      "airbus",
+      "flagship"
+    ],
+    "model3dPath": "/assets/models/aircraft/a388/a388-001.gltf",
+    "thumbnailPath": "/assets/thumbnails/aircraft/a388-001.jpg",
+    "difficultyLevel": 9,
+    "popularityScore": 98,
+    "beginnerFriendly": false
+  },
+  {
+    "id": "a388-002",
+    "icaoCode": "A388",
+    "iataCode": "388",
+    "model": "Airbus A380-861",
+    "type": "A380-861",
+    "manufacturer": "Airbus",
+    "family": "A380",
+    "name": "Airbus A380-861 GP7200 Engine Alliance",
+    "category": "SUPER_HEAVY",
+    "status": "ACTIVE",
+    "firstFlightYear": 2006,
+    "description": "Вариант с двигателями Engine Alliance GP7270 (GE + PW). Немного большая тяга и лучшая производительность в жарком климате. Выбор Emirates.",
+    "dimensions": {
+      "length_m": 72.72,
+      "wingspan_m": 79.75,
+      "height_m": 24.09,
+      "wingArea_m2": 845.0,
+      "wheelbase_m": 31.36
+    },
+    "weights": {
+      "mtow_kg": 560000,
+      "mlw_kg": 386000,
+      "mzfw_kg": 361000,
+      "oew_kg": 277800,
+      "maxFuel_kg": 253760,
+      "maxPayload_kg": 83200
+    },
+    "engines": [
+      {
+        "model": "GP7270",
+        "manufacturer": "Engine Alliance",
+        "type": "TURBOFAN",
+        "thrust_kN": 311.0,
+        "thrust_lbf": 70000,
+        "bypassRatio": 8.8,
+        "count": 4
+      }
+    ],
+    "performance": {
+      "maxRange_km": 14800,
+      "maxRange_nm": 7990,
+      "ceiling_ft": 43000,
+      "ceiling_m": 13106,
+      "cruiseMach": 0.85,
+      "cruiseSpeed_kts": 490,
+      "cruiseSpeed_kmh": 903,
+      "maxMach": 0.89,
+      "climbRate_fpm": 1650,
+      "takeoffDistance_m": 2850,
+      "landingDistance_m": 2050,
+      "fuelBurn_kgph": 11600,
+      "maxFuelFlow_kgph": 28500
+    },
+    "speeds": {
+      "vmo_kts": 340,
+      "mmo": 0.89,
+      "vs0_kts": 130,
+      "vs1_kts": 165,
+      "vne_kts": 360,
+      "vr_kts": 165,
+      "vapp_kts": 142
+    },
+    "capacity": {
+      "maxPax": 853,
+      "typicalTwoClass": 644,
+      "typicalThreeClass": 555,
+      "cockpitCrew": 2,
+      "cargoCapacity_m3": 184.4,
+      "cargoCapacity_kg": 20000
+    },
+    "wingtipDevice": "NONE",
+    "availableLiveryIds": [
+      "emirates-a388",
+      "airfrance-a388-gp",
+      "ethihad-a388",
+      "generic-a388-white"
+    ],
+    "features": [
+      "GP7200",
+      "Engine Alliance",
+      "Hot & High Optimized",
+      "Double Deck"
+    ],
+    "tags": [
+      "super-heavy",
+      "gp7200",
+      "engine-alliance",
+      "emirates",
+      "quadjet"
+    ],
+    "model3dPath": "/assets/models/aircraft/a388/a388-002.gltf",
+    "thumbnailPath": "/assets/thumbnails/aircraft/a388-002.jpg",
+    "difficultyLevel": 9,
+    "popularityScore": 97,
+    "beginnerFriendly": false
+  },
+  {
+    "id": "a388-003",
+    "icaoCode": "A388",
+    "iataCode": "388",
+    "model": "Airbus A380-842 HGW",
+    "type": "A380-842",
+    "manufacturer": "Airbus",
+    "family": "A380",
+    "name": "Airbus A380-842 High Gross Weight 575t",
+    "category": "SUPER_HEAVY",
+    "status": "ACTIVE",
+    "firstFlightYear": 2010,
+    "description": "Высоковесовая версия MTOW 575 тонн (High Gross Weight). Усиленная структура, максимальная дальность 15400 км, используется на ультрадальних маршрутах.",
+    "dimensions": {
+      "length_m": 72.72,
+      "wingspan_m": 79.75,
+      "height_m": 24.09,
+      "wingArea_m2": 845.0,
+      "wheelbase_m": 31.36
+    },
+    "weights": {
+      "mtow_kg": 575000,
+      "mlw_kg": 394000,
+      "mzfw_kg": 369000,
+      "oew_kg": 278800,
+      "maxFuel_kg": 253760,
+      "maxPayload_kg": 90000
+    },
+    "engines": [
+      {
+        "model": "Trent 972-84",
+        "manufacturer": "Rolls-Royce",
+        "type": "TURBOFAN",
+        "thrust_kN": 320.0,
+        "thrust_lbf": 72000,
+        "bypassRatio": 8.7,
+        "count": 4
+      }
+    ],
+    "performance": {
+      "maxRange_km": 15400,
+      "maxRange_nm": 8315,
+      "ceiling_ft": 43000,
+      "ceiling_m": 13106,
+      "cruiseMach": 0.85,
+      "cruiseSpeed_kts": 491,
+      "cruiseSpeed_kmh": 909,
+      "maxMach": 0.89,
+      "climbRate_fpm": 1550,
+      "takeoffDistance_m": 3050,
+      "landingDistance_m": 2100,
+      "fuelBurn_kgph": 11800,
+      "maxFuelFlow_kgph": 29000
+    },
+    "speeds": {
+      "vmo_kts": 340,
+      "mmo": 0.89,
+      "vs0_kts": 132,
+      "vs1_kts": 167,
+      "vne_kts": 360,
+      "vr_kts": 170,
+      "vapp_kts": 145
+    },
+    "capacity": {
+      "maxPax": 853,
+      "typicalTwoClass": 644,
+      "typicalThreeClass": 555,
+      "cockpitCrew": 2,
+      "cargoCapacity_m3": 184.4,
+      "cargoCapacity_kg": 21000
+    },
+    "wingtipDevice": "NONE",
+    "availableLiveryIds": [
+      "emirates-a388-hgw",
+      "qatar-a388",
+      "singapore-a388",
+      "generic-a388-white"
+    ],
+    "features": [
+      "HGW 575t",
+      "Ultra Long Range",
+      "Trent 972",
+      "Reinforced Structure"
+    ],
+    "tags": [
+      "super-heavy",
+      "hgw",
+      "ultra-long",
+      "575t",
+      "airbus"
+    ],
+    "model3dPath": "/assets/models/aircraft/a388/a388-003.gltf",
+    "thumbnailPath": "/assets/thumbnails/aircraft/a388-003.jpg",
+    "difficultyLevel": 10,
+    "popularityScore": 88,
+    "beginnerFriendly": false
+  },
+  {
+    "id": "a388-004",
+    "icaoCode": "A388",
+    "iataCode": "388",
+    "model": "Airbus A380-841 High Density",
+    "type": "A380-841 HD",
+    "manufacturer": "Airbus",
+    "family": "A380",
+    "name": "Airbus A380 High Density 615 Pax",
+    "category": "SUPER_HEAVY",
+    "status": "ACTIVE",
+    "firstFlightYear": 2014,
+    "description": "Высокоплотная компоновка Emirates: 615 пассажиров (58 Business + 557 Economy). Наиболее эффективная по CASK конфигурация A380.",
+    "dimensions": {
+      "length_m": 72.72,
+      "wingspan_m": 79.75,
+      "height_m": 24.09,
+      "wingArea_m2": 845.0,
+      "wheelbase_m": 31.36
+    },
+    "weights": {
+      "mtow_kg": 560000,
+      "mlw_kg": 386000,
+      "mzfw_kg": 361000,
+      "oew_kg": 273800,
+      "maxFuel_kg": 253760,
+      "maxPayload_kg": 87200
+    },
+    "engines": [
+      {
+        "model": "GP7270",
+        "manufacturer": "Engine Alliance",
+        "type": "TURBOFAN",
+        "thrust_kN": 311.0,
+        "thrust_lbf": 70000,
+        "bypassRatio": 8.8,
+        "count": 4
+      }
+    ],
+    "performance": {
+      "maxRange_km": 14100,
+      "maxRange_nm": 7613,
+      "ceiling_ft": 43000,
+      "ceiling_m": 13106,
+      "cruiseMach": 0.85,
+      "cruiseSpeed_kts": 490,
+      "cruiseSpeed_kmh": 903,
+      "maxMach": 0.89,
+      "climbRate_fpm": 1550,
+      "takeoffDistance_m": 2950,
+      "landingDistance_m": 2080,
+      "fuelBurn_kgph": 11700,
+      "maxFuelFlow_kgph": 28500
+    },
+    "speeds": {
+      "vmo_kts": 340,
+      "mmo": 0.89,
+      "vs0_kts": 131,
+      "vs1_kts": 166,
+      "vne_kts": 360,
+      "vr_kts": 168,
+      "vapp_kts": 143
+    },
+    "capacity": {
+      "maxPax": 615,
+      "typicalTwoClass": 615,
+      "typicalThreeClass": 555,
+      "cockpitCrew": 2,
+      "cargoCapacity_m3": 184.4,
+      "cargoCapacity_kg": 18000
+    },
+    "wingtipDevice": "NONE",
+    "availableLiveryIds": [
+      "emirates-a388",
+      "emirates-a388-hgw",
+      "generic-a388-white"
+    ],
+    "features": [
+      "High Density 615",
+      "Emirates Config",
+      "Efficient",
+      "Two Class"
+    ],
+    "tags": [
+      "super-heavy",
+      "high-density",
+      "615pax",
+      "emirates",
+      "efficient"
+    ],
+    "model3dPath": "/assets/models/aircraft/a388/a388-004.gltf",
+    "thumbnailPath": "/assets/thumbnails/aircraft/a388-004.jpg",
+    "difficultyLevel": 9,
+    "popularityScore": 90,
+    "beginnerFriendly": false
+  },
+  {
+    "id": "a388-005",
+    "icaoCode": "A388",
+    "iataCode": "388",
+    "model": "Airbus A380-843 Long Range Plus",
+    "type": "A380-843",
+    "manufacturer": "Airbus",
+    "family": "A380",
+    "name": "Airbus A380-843 Long Range Plus",
+    "category": "SUPER_HEAVY",
+    "status": "ACTIVE",
+    "firstFlightYear": 2017,
+    "description": "Финальная модернизация A380plus: винглеты новой формы, улучшенная аэродинамика, снижение расхода на 4% и увеличенная дальность.",
+    "dimensions": {
+      "length_m": 72.72,
+      "wingspan_m": 80.5,
+      "height_m": 24.09,
+      "wingArea_m2": 845.0,
+      "wheelbase_m": 31.36
+    },
+    "weights": {
+      "mtow_kg": 575000,
+      "mlw_kg": 394000,
+      "mzfw_kg": 370000,
+      "oew_kg": 277000,
+      "maxFuel_kg": 253760,
+      "maxPayload_kg": 92000
+    },
+    "engines": [
+      {
+        "model": "Trent 977-84",
+        "manufacturer": "Rolls-Royce",
+        "type": "TURBOFAN",
+        "thrust_kN": 334.0,
+        "thrust_lbf": 75000,
+        "bypassRatio": 8.7,
+        "count": 4
+      }
+    ],
+    "performance": {
+      "maxRange_km": 15777,
+      "maxRange_nm": 8519,
+      "ceiling_ft": 43000,
+      "ceiling_m": 13106,
+      "cruiseMach": 0.85,
+      "cruiseSpeed_kts": 493,
+      "cruiseSpeed_kmh": 913,
+      "maxMach": 0.89,
+      "climbRate_fpm": 1700,
+      "takeoffDistance_m": 2850,
+      "landingDistance_m": 2050,
+      "fuelBurn_kgph": 11300,
+      "maxFuelFlow_kgph": 27000
+    },
+    "speeds": {
+      "vmo_kts": 340,
+      "mmo": 0.89,
+      "vs0_kts": 130,
+      "vs1_kts": 165,
+      "vne_kts": 360,
+      "vr_kts": 164,
+      "vapp_kts": 139
+    },
+    "capacity": {
+      "maxPax": 853,
+      "typicalTwoClass": 650,
+      "typicalThreeClass": 575,
+      "cockpitCrew": 2,
+      "cargoCapacity_m3": 184.4,
+      "cargoCapacity_kg": 22000
+    },
+    "wingtipDevice": "WINGLET",
+    "availableLiveryIds": [
+      "emirates-a388-plus",
+      "generic-a388-white",
+      "qatar-a388"
+    ],
+    "features": [
+      "A380plus",
+      "New Winglets",
+      "4% Fuel Save",
+      "Optimized",
+      "Final Version"
+    ],
+    "tags": [
+      "super-heavy",
+      "plus",
+      "new-winglets",
+      "optimized",
+      "final"
+    ],
+    "model3dPath": "/assets/models/aircraft/a388/a388-005.gltf",
+    "thumbnailPath": "/assets/thumbnails/aircraft/a388-005.jpg",
+    "difficultyLevel": 9,
+    "popularityScore": 82,
+    "beginnerFriendly": false
+  }
+]
